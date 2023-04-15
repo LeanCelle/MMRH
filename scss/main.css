@@ -771,7 +771,7 @@ div.foot-tamaño p.tdcolor img.redes {
   header.color-header {
     width: 100%;
     height: auto;
-    padding: 0rem 0rem 15rem 0rem;
+    padding: 0rem 0rem 10rem 0rem;
   }
   header.color-header nav.nav {
     display: flex;
@@ -801,7 +801,7 @@ div.foot-tamaño p.tdcolor img.redes {
     display: flex;
     flex-direction: column;
     height: auto;
-    margin: 10rem 0rem 0rem 0rem;
+    margin: 5rem 0rem 0rem 0rem;
     padding: 0rem;
     border-radius: 0rem;
     align-items: center;

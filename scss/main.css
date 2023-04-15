@@ -315,7 +315,7 @@ header.header-2 div.servicios-busqueda h1.servicios-busqueda {
 }
 header.header-2 div.servicios-busqueda h4.servicios-busqueda {
   color: rgba(255, 255, 255, 0.929);
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Raleway", sans-serif;
   font-size: 30px;
   letter-spacing: 0.3rem;
   text-align: center;
@@ -780,10 +780,11 @@ div.foot-tamaño p.tdcolor img.redes {
     align-items: center;
   }
   header.color-header nav.nav img.logo {
-    width: 15rem;
+    width: 20rem;
     height: auto;
   }
   header.color-header nav.nav ul.menu {
+    padding-top: 2.5rem;
     align-items: center;
     display: flex;
     list-style: none;
@@ -868,7 +869,7 @@ div.foot-tamaño p.tdcolor img.redes {
     display: flex;
     font-size: 2rem;
     border: solid white;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
   }
   section.index-texto div.div-prueba input.servicios:hover {
     transform: scale(1.02);
@@ -967,6 +968,7 @@ div.foot-tamaño p.tdcolor img.redes {
     flex-direction: column;
     width: 100%;
     height: auto;
+    padding-bottom: 8rem;
   }
   header.header-2 nav.nav-2 {
     display: flex;
@@ -980,10 +982,11 @@ div.foot-tamaño p.tdcolor img.redes {
     display: flex;
   }
   header.header-2 nav.nav-2 div.div-nav-2 img.logo-2 {
-    width: 15rem;
+    width: 20rem;
     height: auto;
   }
   header.header-2 nav.nav-2 ul.menu-2 {
+    padding-top: 2.5rem;
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -1010,7 +1013,7 @@ div.foot-tamaño p.tdcolor img.redes {
     font-size: 3.5rem;
     letter-spacing: 0.3rem;
     text-align: center;
-    padding: 0rem 0.5rem 0rem 0.5rem;
+    padding: 5rem 1rem 0rem 1rem;
   }
   header.header-2 div.servicios-busqueda h4.servicios-busqueda {
     display: none;
@@ -1120,10 +1123,11 @@ div.foot-tamaño p.tdcolor img.redes {
     display: flex;
   }
   header.header-3 nav.nav-3 div.div-nav-3 img.logo-3 {
-    width: 15rem;
+    width: 20rem;
     height: auto;
   }
   header.header-3 nav.nav-3 ul.menu-3 {
+    padding-top: 2.5rem;
     display: flex;
     flex-direction: row;
     list-style: none;
@@ -1207,7 +1211,7 @@ div.foot-tamaño p.tdcolor img.redes {
     flex-direction: column;
     width: 100%;
     height: auto;
-    padding: 0rem 0rem 10rem 0rem;
+    padding: 0rem 0rem 5rem 0rem;
   }
   header.header-4 nav.nav-4 {
     display: flex;
@@ -1216,11 +1220,12 @@ div.foot-tamaño p.tdcolor img.redes {
     align-items: center;
   }
   header.header-4 nav.nav-4 img.logo-4 {
-    width: 15rem;
+    width: 20rem;
     height: auto;
   }
   header.header-4 ul.menu-4 {
     display: flex;
+    padding-top: 2.5rem;
   }
   header.header-4 ul.menu-4 a {
     text-decoration: none;
@@ -1614,7 +1619,7 @@ div.foot-tamaño p.tdcolor img.redes {
     font-size: 5rem;
     letter-spacing: 0.3rem;
     text-align: center;
-    padding: 5rem 40rem 6rem 40rem;
+    padding: 0rem 40rem 6rem 40rem;
   }
   header.header-2 div.servicios-busqueda h4.servicios-busqueda {
     color: rgba(255, 255, 255, 0.929);

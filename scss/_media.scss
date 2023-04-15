@@ -13,10 +13,11 @@
             justify-content: space-around;
             align-items: center;
             img.logo {
-                width: 15rem;
+                width: 20rem;
                 height: auto;
             }
             ul.menu {
+                padding-top: 2.5rem;
                 align-items: center;
                 display: flex;
                 list-style: none;
@@ -102,7 +103,7 @@
                 display: flex;
                 font-size: 2rem;
                 border: solid white;
-                border-radius: 1rem;
+                border-radius: 0.5rem;
                 &:hover {
                     transform: scale(1.02);
                     transition: 1s;
@@ -207,6 +208,7 @@
         flex-direction: column;
         width: 100%;
         height: auto;
+        padding-bottom: 8rem;
         nav.nav-2 {
             display: flex;
             flex-direction: column;
@@ -217,11 +219,12 @@
             div.div-nav-2 {
                 display: flex;
                 img.logo-2 {
-                    width: 15rem;
+                    width: 20rem;
                     height: auto;
                 }
             }
             ul.menu-2 {
+                padding-top: 2.5rem;
                 display: flex;
                 flex-direction: row;
                 list-style: none;
@@ -248,7 +251,7 @@
                 font-size: 3.5rem;
                 letter-spacing: 0.3rem;
                 text-align: center;
-                padding: 0rem 0.5rem 0rem 0.5rem;
+                padding: 5rem 1rem 0rem 1rem;
             
             }
             h4.servicios-busqueda {
@@ -370,11 +373,12 @@
             div.div-nav-3 {
                 display: flex;
                 img.logo-3 {
-                    width: 15rem;
+                    width: 20rem;
                     height: auto;
                 }
             }
             ul.menu-3 {
+                padding-top: 2.5rem;
                 display: flex;
                 flex-direction: row;
                 list-style: none;
@@ -468,19 +472,20 @@
         flex-direction: column;
         width: 100%;
         height: auto;
-        padding: 0rem 0rem 10rem 0rem;
+        padding: 0rem 0rem 5rem 0rem;
         nav.nav-4 {
             display: flex;
             flex-direction: column;
             justify-content: space-around;
             align-items: center;
             img.logo-4 {
-                width: 15rem;
+                width: 20rem;
                 height: auto;
             }
         }
         ul.menu-4 {
             display: flex;
+            padding-top: 2.5rem;
             a {
                 text-decoration: none;
                 li.inicio-4 {
@@ -894,7 +899,7 @@
                 font-size: 5rem;
                 letter-spacing: 0.3rem;
                 text-align: center;
-                padding: 5rem 40rem 6rem 40rem;
+                padding: 0rem 40rem 6rem 40rem;
             
             }
             h4.servicios-busqueda {

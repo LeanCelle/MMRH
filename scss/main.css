@@ -307,7 +307,7 @@ header.header-2 div.servicios-busqueda {
 }
 header.header-2 div.servicios-busqueda h1.servicios-busqueda {
   color: rgba(255, 255, 255, 0.929);
-  font-family: "Raleway", sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 5rem;
   letter-spacing: 0.3rem;
   text-align: center;
@@ -315,7 +315,7 @@ header.header-2 div.servicios-busqueda h1.servicios-busqueda {
 }
 header.header-2 div.servicios-busqueda h4.servicios-busqueda {
   color: rgba(255, 255, 255, 0.929);
-  font-family: "Raleway", sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 30px;
   letter-spacing: 0.3rem;
   text-align: center;
@@ -1005,12 +1005,16 @@ div.foot-tamaño p.tdcolor img.redes {
     margin: 5rem 0rem 5rem 0rem;
   }
   header.header-2 div.servicios-busqueda h1.servicios-busqueda {
-    font-size: 3rem;
-    letter-spacing: 0.2rem;
+    color: #4b4b4b;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 3.5rem;
+    letter-spacing: 0.3rem;
     text-align: center;
     padding: 0rem 0.5rem 0rem 0.5rem;
   }
   header.header-2 div.servicios-busqueda h4.servicios-busqueda {
+    display: none;
+    font-family: "Raleway", sans-serif;
     font-size: 3rem;
     letter-spacing: 0.2rem;
     text-align: center;
@@ -1020,6 +1024,7 @@ div.foot-tamaño p.tdcolor img.redes {
     padding: 6rem 0rem 6rem 0rem;
   }
   div.dirigimos h3.dirigimos {
+    color: #4b4b4b;
     width: 100%;
     height: auto;
     text-align: center;
@@ -1042,6 +1047,7 @@ div.foot-tamaño p.tdcolor img.redes {
     padding: 0rem 1rem 0rem 1rem;
   }
   div.grid-servicios div.orientamos h3.orientamos {
+    color: #4b4b4b;
     text-align: center;
     font-family: "Raleway", sans-serif;
     font-size: 2rem;
@@ -1604,7 +1610,7 @@ div.foot-tamaño p.tdcolor img.redes {
   }
   header.header-2 div.servicios-busqueda h1.servicios-busqueda {
     color: rgba(255, 255, 255, 0.929);
-    font-family: "Raleway", sans-serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 5rem;
     letter-spacing: 0.3rem;
     text-align: center;

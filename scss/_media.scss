@@ -243,13 +243,17 @@
             flex-direction: column;
             margin: 5rem 0rem 5rem 0rem;
             h1.servicios-busqueda {
-                font-size: 3rem;
-                letter-spacing: 0.2rem;
+                color: #4b4b4b;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 3.5rem;
+                letter-spacing: 0.3rem;
                 text-align: center;
                 padding: 0rem 0.5rem 0rem 0.5rem;
             
             }
             h4.servicios-busqueda {
+                display: none;
+                font-family: 'Raleway', sans-serif;
                 font-size: 3rem;
                 letter-spacing: 0.2rem;
                 text-align: center;
@@ -263,6 +267,7 @@
     div.dirigimos {
         padding: 6rem 0rem 6rem 0rem;
         h3.dirigimos {
+            color: #4b4b4b;
             width: 100%;
             height: auto;
             text-align: center;
@@ -286,6 +291,7 @@
             height: 100%;
             padding: 0rem 1rem 0rem 1rem;
             h3.orientamos {
+                color: #4b4b4b;
                 text-align: center;
                 font-family: 'Raleway', sans-serif;
                 font-size: 2rem;
@@ -656,7 +662,7 @@
                 display: flex;
                 text-align: center;
                 font-weight: normal;
-                font-family: 'Times New Roman', Times, serif
+                font-family: 'Times New Roman', Times, serif;
             }
             h2.encontramos-talento {
                 color: #4b4b4b;
@@ -884,7 +890,7 @@
             flex-direction: column;
             h1.servicios-busqueda {
                 color: rgba(255, 255, 255, 0.929);
-                font-family: 'Raleway', sans-serif;
+                font-family: 'Times New Roman', Times, serif;
                 font-size: 5rem;
                 letter-spacing: 0.3rem;
                 text-align: center;

@@ -6,7 +6,7 @@
     header.color-header {
         width: 100%;
         height: auto;
-        padding: 0rem 0rem 10rem 0rem;
+        padding: 0rem 0rem 15rem 0rem;
         nav.nav {
             display: flex;
             flex-direction: column;
@@ -21,11 +21,11 @@
                 display: flex;
                 list-style: none;
                 li.inicio {
-                    font-size:small;
+                    font-size: 1.5rem;
                     padding: 0rem 1rem;
                 }
                 li.paginas {
-                    font-size: small;
+                    font-size: 1.5rem;
                     padding: 0rem 1rem;
                 }
             }
@@ -34,20 +34,20 @@
             display: flex;
             flex-direction: column;
             height: auto;
-            margin: 10rem 0rem 0rem 0rem;
+            margin: 15rem 0rem 0rem 0rem;
             padding: 0rem;
             border-radius: 0rem;
             align-items: center;
             h1.h-uno {
                 color: #4b4b4b;
                 padding-bottom: 2rem;
-                font-size: 5rem;
+                font-size: 6rem;
                 display: flex;
                 text-align: center;
                 font-weight: normal;
             }
             h2.encontramos-talento {
-                font-size: 3rem;
+                font-size: 4rem;
                 text-align: center;
                 display: flex;
                 letter-spacing: 0.2rem;
@@ -72,7 +72,7 @@
             text-align: center;
             p.p-motiva {
                 color: white;
-                font-size: 2rem;
+                font-size: 2.5rem;
                 font-family:'Raleway', sans-serif;
                 padding: 0rem;
             }
@@ -80,13 +80,13 @@
         div.div-prueba {
             background-color: #ebf7b3;
             width: 100%;
-            height: 60rem;
+            height: auto;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             text-align: center;
-            padding: 0rem 0rem;
+            padding: 15rem 0rem;
             letter-spacing: 0.5rem;
             p.p-prueba {
                 color: #4b4b4b;
@@ -121,18 +121,18 @@
                 display: flex;
                 justify-content: center;
                 text-align: center;
-                font-size: 2rem;
+                font-size: 3rem;
                 letter-spacing: 0.25rem;
-                margin: 20rem 0rem 10rem 0rem;
+                margin: 10rem 0rem 10rem 0rem;
             }
             div.reclutamiento-seleccion-2 {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
-                padding: 0rem 0rem 0rem 0rem;
+                padding: 0rem 2rem 0rem 2rem;
                 img.reclutamiento-seleccion {
                     display: flex;
-                    width: 5rem;
+                    width: 7rem;
                     height: auto;
                     margin: 0rem 0rem 5rem 0rem;
                 }
@@ -140,14 +140,14 @@
                     width: 100%;
                     height: auto;
                     text-align: center;
-                    font-size: 1.5rem;
+                    font-size: 2rem;
                     letter-spacing: 0.1rem;
                     line-height: 200%;
                     margin: 0rem 0rem;
                 }
                 img.reclutamiento-seleccion-2 {
                     display: flex;
-                    width: 5rem;
+                    width: 7rem;
                     height: auto;
                     margin: 5rem 0rem 0rem 0rem;
                 }
@@ -162,7 +162,7 @@
             }
             img.logo-2 {
                 display: block;
-                width: 15rem;
+                width: 10rem;
                 height: auto;
                 margin: auto;
                 padding-top: 10rem;
@@ -172,13 +172,10 @@
     }
     
     div.foot {
-        background-color: black;
-        color: white;
         display: flex;
         justify-content: space-around;
         align-items: baseline;
         padding: 1rem 0rem 1rem 0rem;
-        border-top: solid white;
         &-tamaño {
             text-align: center;
             width: 20rem;
@@ -205,6 +202,7 @@
 
 @media (max-width: 576px) {
     header.header-2 {
+        background-image: linear-gradient(135deg, rgb(255, 171, 36), rgb(255, 153, 75),rgb(255, 195, 134), rgb(255, 214, 191), rgb(239, 255, 121), rgb(255, 255, 49),rgb(255, 255, 0));
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -230,12 +228,12 @@
                 a {
                     text-decoration: none;
                     li.inicio-2 {
-                        font-size: small;
+                        font-size: 1.5rem;
                         padding: 0px 1rem;
                     }
                 }
                 li.paginas-2 {
-                    font-size: small;
+                    font-size: 1.5rem;
                     padding: 0px 1rem;
                 }
             }
@@ -245,17 +243,17 @@
             flex-direction: column;
             margin: 5rem 0rem 5rem 0rem;
             h1.servicios-busqueda {
-                font-size: 2rem;
+                font-size: 3rem;
                 letter-spacing: 0.2rem;
                 text-align: center;
-                padding: 0rem 0rem 0rem 0rem;
+                padding: 0rem 0.5rem 0rem 0.5rem;
             
             }
             h4.servicios-busqueda {
-                font-size: 2rem;
-                letter-spacing: 0.3rem;
+                font-size: 3rem;
+                letter-spacing: 0.2rem;
                 text-align: center;
-                padding: 0rem 0rem 0rem 0rem;
+                padding: 0rem 0.5rem 0rem 0.5rem;
             }
         }
     }
@@ -263,13 +261,12 @@
     
     
     div.dirigimos {
-        padding: 4rem 0rem 4rem 0rem;
+        padding: 6rem 0rem 6rem 0rem;
         h3.dirigimos {
             width: 100%;
             height: auto;
-            font-family: 'Raleway', sans-serif;
             text-align: center;
-            font-size: 2rem;
+            font-size: 3rem;
         }
     }
     
@@ -287,10 +284,11 @@
             display: flex;
             width: 100%;
             height: 100%;
+            padding: 0rem 1rem 0rem 1rem;
             h3.orientamos {
                 text-align: center;
                 font-family: 'Raleway', sans-serif;
-                font-size: 1.5rem;
+                font-size: 2rem;
                 letter-spacing: 0.3rem;
                 line-height: 150%;
     
@@ -377,12 +375,12 @@
                 a {
                     text-decoration: none;
                     li.inicio-3 {
-                        font-size: small;
+                        font-size: 1.5rem;
                         padding: 0rem 1rem;
                     }
                 }
                 li.paginas-3 {
-                    font-size: small;
+                    font-size: 1.5rem;
                     padding: 0rem 1rem;
                 }
             }
@@ -398,9 +396,10 @@
         align-items: center;
         h1.quienes-somos {
             display: flex;
-            font-size: 2rem;
-            letter-spacing: 0.3rem;
-            padding: 5rem 0rem 5rem 0rem;
+            font-size: 3rem;
+            text-align: center;
+            letter-spacing: 0.2rem;
+            padding: 8rem 0rem 8rem 0rem;
         }
         h2.quienes-somos {
             display: flex;
@@ -426,7 +425,7 @@
                 width: 100%;
                 height: auto;
                 text-align: center;
-                font-size: 1rem;
+                font-size: 1.5rem;
                 padding: 0rem 2rem 0rem 2rem;
                 letter-spacing: 0.3rem;
             }
@@ -443,7 +442,7 @@
                 width: 100%;
                 height: auto;
                 text-align: center;
-                font-size: 1rem;
+                font-size: 1.5rem;
                 letter-spacing: 0.3rem;
                 padding: 0rem 2rem 0rem 2rem;
             }
@@ -479,15 +478,12 @@
             a {
                 text-decoration: none;
                 li.inicio-4 {
-                    font-size: small;
+                    font-size: 1.5rem;
                     padding: 0rem 1rem;
-                    &:hover {
-                        color: black;
-                    }
                 }
             }
             li.paginas-4 {
-                font-size: small;
+                font-size: 1.5rem;
                 padding: 0rem 1rem;
             }
         }
@@ -504,9 +500,9 @@
             height: auto;
             justify-content: center;
             text-align: center;
-            font-size: 2rem;
+            font-size: 3rem;
             letter-spacing: 0.3rem;
-            padding: 5rem 0rem 5rem 0rem;
+            padding: 8rem 1.2rem 8rem 1.2rem;
         }
     }
     
@@ -525,11 +521,11 @@
             height: auto;
             color: #4b4b4b;
             font-family: 'Raleway', sans-serif;
-            font-size: 2rem;
-            padding-bottom: 2rem;
+            font-size: 3rem;
+            padding-bottom: 4rem;
         }
         img.mensaje {
-            width: 2.5rem;
+            width: 3rem;
             height: auto;
         }
     }
@@ -537,6 +533,7 @@
     
     div.social {
         display: flex;
+        flex-direction: column;
         width: 100%;
         height: auto;
         align-items: center;
@@ -550,13 +547,13 @@
             align-items: center;
             img.gmail {
                 display: flex;
-                width: 3rem;
+                width: 4rem;
                 height: auto;
-                padding-bottom: 4rem;
+                padding: 2rem 0rem 2rem 0rem;
             }
             h4.gmail {
                 text-align: center;
-                font-size: 1rem;
+                font-size: 2rem;
                 letter-spacing: 0.1rem;
             }
         }
@@ -568,19 +565,19 @@
             align-items: center;
             img.wpp {
                 display: flex;
-                width: 3rem;
+                width: 4rem;
                 height: auto;
-                padding-bottom: 4rem;
+                padding: 6rem 0rem 2rem 0rem;
             }
             h4.wpp-1 {
                 text-align: center;
-                font-size: 1rem;
+                font-size: 2rem;
                 letter-spacing: 0.1rem;
                 padding-bottom: 1rem;
             }
             h4.wpp-2 {
                 text-align: center;
-                font-size: 1rem;
+                font-size: 2rem;
                 letter-spacing: 0.1rem;
             }
         }
@@ -832,7 +829,7 @@
 
 @media (min-width: 1201px) {
     header.header-2 {
-        background-image: linear-gradient(135deg, rgb(73, 73, 0), rgb(111, 111, 0),rgb(213, 213, 0), #ddff00, rgb(213, 213, 0), rgb(111, 111, 0), rgb(73, 73, 0));
+        background-image: linear-gradient(135deg, rgb(255, 171, 36), rgb(255, 153, 75),rgb(255, 195, 134), rgb(255, 214, 191), rgb(239, 255, 121), rgb(255, 255, 49),rgb(255, 255, 0));
         background-size: 500%;
         display: flex;
         flex-direction: column;

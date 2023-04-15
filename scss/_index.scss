@@ -1,0 +1,233 @@
+/* INICIO */
+
+header.color-header {
+    background-image: linear-gradient(135deg, #ffdf4f, #ffdd60,#d3f7b3, #f5ffb7, #fdff9f, #ffdd60, #ffdf4f);
+    background-size: 500%;
+    width: 100%;
+    height: auto;
+    padding: 0rem 0rem 30rem 0rem;
+    animation: bg-servicios 20s infinite;
+    nav.nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        img.logo {
+            width: 15rem;
+            height: auto;
+        }
+        ul.menu {
+            align-items: center;
+            display: flex;
+            list-style: none;
+            a {
+                 text-decoration: none;
+            }
+            li.inicio {
+                font-family: 'Raleway', sans-serif;
+                list-style: none;
+                color: rgba(0, 0, 0, 0.615);
+                font-size: x-large;
+                padding: 0rem 5rem;
+                &:hover {
+                    color: black;
+                }
+            }
+            li.paginas {
+                font-family: 'Raleway', sans-serif;
+                list-style: none;
+                color: rgba(0, 0, 0, 0.615);
+                font-size: x-large;
+                padding: 0rem 5rem;
+                border-left: solid rgb(255, 255, 255);
+                &:hover {
+                    color: black;
+                }
+            }
+        }
+    }
+    div.h-uno {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin: 10rem 0rem 0rem 0rem;
+        padding: 0rem;
+        border-radius: 2rem;
+        align-items: center;
+        h1.h-uno {
+            color: #4b4b4b;
+            padding-bottom: 2rem;
+            font-size: 10rem;
+            display: flex;
+            text-align: center;
+            font-weight: normal;
+            font-family: 'Times New Roman', Times, serif
+        }
+        h2.encontramos-talento {
+            color: #4b4b4b;
+            font-size: 5rem;
+            font-family:'Raleway', sans-serif;
+            text-align: center;
+            display: flex;
+            letter-spacing: 0.2rem;
+        }
+    }
+}
+
+
+
+
+
+
+section.index-texto {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    div.div-motiva {
+        width: 100%;
+        height: 50rem;
+        padding: 0rem 2rem;
+        letter-spacing: 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        p.p-motiva {
+            color: white;
+            font-size: 5rem;
+            font-family:'Raleway', sans-serif;
+            padding: 5rem;
+        }
+    }
+    div.div-prueba {
+        background-color: #ebf7b3;
+        width: 100%;
+        height: 60rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0rem 2rem;
+        letter-spacing: 0.5rem;
+        p.p-prueba {
+            color: #4b4b4b;
+            font-size: 5rem;
+            font-family:'Raleway', sans-serif;
+        }
+        a {
+            text-decoration: none;
+        }
+        input.servicios {
+            background-color: rgba(0, 0, 0, 0.442);
+            color: white;
+            margin-top: 8rem;
+            padding: 1rem;
+            display: flex;
+            font-size: 3rem;
+            border: solid white;
+            border-radius: 1rem;
+            &:hover {
+                transform: scale(1.02);
+                transition: 1s;
+                background-color: rgba(255, 255, 255, 0.668);
+                color: black;
+                cursor: pointer;
+            }
+        }
+    }
+    div.reclutamiento-seleccion {
+        background-color:#d3f7b3;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20rem;
+        h2.reclutamiento-seleccion {
+            color: #4b4b4b;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            font-family:'Raleway', sans-serif;
+            font-size: 6rem;
+            letter-spacing: 0.5rem;
+            margin: 20rem 0rem 10rem 0rem;
+        }
+        div.reclutamiento-seleccion-2 {
+            display: flex;
+            align-items: center;
+            padding: 0rem 10rem 0rem 10rem;
+            img.reclutamiento-seleccion {
+                display: flex;
+                width: 10rem;
+                height: auto;
+                margin: 0rem 6rem 0rem 0rem;
+            }
+            h3.reclutamiento-seleccion {
+                width: 100%;
+                height: auto;
+                color: #4b4b4b;
+                text-align: center;
+                font-family: 'Mukta', sans-serif;
+                font-size: 2.5rem;
+                letter-spacing: 0.1rem;
+                line-height: 200%;
+                margin: 0rem 0rem;
+            }
+            img.reclutamiento-seleccion-2 {
+                display: flex;
+                width: 10rem;
+                height: auto;
+                margin: 0rem 0rem 0rem 6rem;
+            }
+        }
+        h3.reclutamiento-seleccion {
+            color: #4b4b4b;
+            text-align: center;
+            font-family: 'Mukta', sans-serif;
+            font-size: 3.5rem;
+            letter-spacing: 0.1rem;
+            margin-left: 8rem;
+            margin-right: 8rem;
+            line-height: 200%;
+        }
+        img.logo-2 {
+            display: block;
+            width: 15rem;
+            height: auto;
+            margin: auto;
+            padding-top: 10rem;
+            opacity: 0.9;
+        }
+    }
+}
+
+div.foot {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 2rem 0rem 2rem 0rem;
+    border-top: solid white;
+    &-tamaño {
+        text-align: center;
+        width: 20rem;
+        height: auto;
+        p.tdcolor {
+            display: flex;
+            font-size: 1.5rem;
+            padding: 1rem 0rem;
+            justify-content: center;
+            cursor: pointer;
+            &:hover {
+                color: white;
+                text-decoration: underline;
+            }
+            img.redes {
+                width: 1.5rem;
+                height: 1.5rem;
+            }
+        }
+    }
+}

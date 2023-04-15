@@ -1,0 +1,171 @@
+/* NOSOTROS */
+
+header.header-3 {
+    background-image: linear-gradient(135deg, #ffdf4f, #ffdd60,#d3f7b3, #f5ffb7, #fdff9f, #ffdd60, #ffdf4f);
+    background-size: 500%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    border-bottom: white solid;
+    animation: bg-servicios 20s infinite;
+    nav.nav-3 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        div.div-nav-3 {
+            display: flex;
+            img.logo-3 {
+                width: 15rem;
+                height: auto;
+            }
+        }
+        ul.menu-3 {
+            display: flex;
+            flex-direction: row;
+            list-style: none;
+            a {
+                text-decoration: none;
+                li.inicio-3 {
+                    font-family: 'Raleway', sans-serif;
+                    list-style: none;
+                    color: rgba(0, 0, 0, 0.615);
+                    font-size: x-large;
+                    padding: 0rem 5rem;
+                    &:hover {
+                        color: black;
+                    }
+                }
+            }
+            li.paginas-3 {
+                font-family: 'Raleway', sans-serif;
+                list-style: none;
+                color: rgba(0, 0, 0, 0.615);
+                font-size: x-large;
+                padding: 0rem 5rem;
+                border-left: solid rgb(255, 255, 255);
+                &:hover {
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+div.quienes-somos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2e997;
+    h1.quienes-somos {
+        color: #4b4b4b;
+        display: flex;
+        font-family: 'Raleway', sans-serif;
+        font-size: 5rem;
+        letter-spacing: 0.3rem;
+        padding: 10rem 0rem 10rem 0rem;
+    }
+    h2.quienes-somos {
+        color: #4b4b4b;
+        display: flex;
+        background-color: white;
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+        font-size: 3rem;
+        letter-spacing: 0.3rem;
+        padding: 10rem 4rem 6rem 10rem;
+    }
+}
+
+div.valores {
+    background-color: #f2e997;
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    padding: 15rem 0rem 15rem 0rem;
+    div.valores-2 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        h3.valores {
+            color: #4b4b4b;
+            width: 100%;
+            height: auto;
+            font-family: 'Raleway', sans-serif;
+            text-align: center;
+            font-size: 3rem;
+            padding: 0rem 2rem 0rem 2rem;
+            letter-spacing: 0.3rem;
+        }
+        img.flecha {
+            width: 80px;
+            height: auto;
+            opacity: 0.7;
+        }
+    }
+    div.valores-3 {
+        width: 100%;
+        height: auto;
+        h4.valores {
+            color: #4b4b4b;
+            width: 100%;
+            height: auto;
+            font-family: 'Raleway', sans-serif;
+            text-align: center;
+            font-size: 2.5rem;
+            letter-spacing: 0.3rem;
+            padding: 0rem 4rem 0rem 4rem;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.foot {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 2rem 0rem 2rem 0rem;
+    border-top: solid white;
+    &-tamaño {
+        text-align: center;
+        width: 20rem;
+        height: auto;
+        p.tdcolor {
+            display: flex;
+            font-size: 1.5rem;
+            padding: 1rem 0rem;
+            justify-content: center;
+            cursor: pointer;
+            &:hover {
+                color: white;
+                text-decoration: underline;
+            }
+            img.redes {
+                width: 1.5rem;
+                height: 1.5rem;
+            }
+        }
+    }
+}

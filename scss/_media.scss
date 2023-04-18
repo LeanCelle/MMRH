@@ -203,6 +203,7 @@
 
 @media (max-width: 576px) {
     header.header-2 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/manos-mobile.jpeg);
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -383,6 +384,7 @@
 
 @media (max-width: 576px) {
     header.header-3 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/mateo.jpeg);
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -508,7 +510,7 @@
 
 @media (max-width: 576px) {
     header.header-4 {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/pexels-photo-2451568.webp);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/circulo.jpeg);
         background-repeat: no-repeat;
         background-size: 100% 100%;
         display: flex;

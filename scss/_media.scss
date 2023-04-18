@@ -23,11 +23,11 @@
                 list-style: none;
                 li.inicio {
                     font-size: 1.5rem;
-                    padding: 0rem 1rem;
+                    padding: 0rem 0.8rem;
                 }
                 li.paginas {
                     font-size: 1.5rem;
-                    padding: 0rem 1rem;
+                    padding: 0rem 0.8rem;
                 }
             }
         }
@@ -207,7 +207,7 @@
         flex-direction: column;
         width: 100%;
         height: auto;
-        padding-bottom: 8rem;
+        padding-bottom: 10rem;
         border-bottom: white solid;
         nav.nav-2 {
             display: flex;
@@ -224,7 +224,7 @@
                 }
             }
             ul.menu-2 {
-                padding-top: 2.5rem;
+                padding-top: 5rem;
                 display: flex;
                 flex-direction: row;
                 list-style: none;
@@ -232,12 +232,12 @@
                     text-decoration: none;
                     li.inicio-2 {
                         font-size: 1.5rem;
-                        padding: 0px 1rem;
+                        padding: 0rem 0.8rem;
                     }
                 }
                 li.paginas-2 {
                     font-size: 1.5rem;
-                    padding: 0px 1rem;
+                    padding: 0rem 0.8rem;
                 }
             }
         }
@@ -387,7 +387,7 @@
         flex-direction: column;
         width: 100%;
         height: auto;
-        padding-bottom: 5rem;
+        padding-bottom: 10rem;
         nav.nav-3 {
             display: flex;
             flex-direction: column;
@@ -401,7 +401,7 @@
                 }
             }
             ul.menu-3 {
-                padding-top: 2.5rem;
+                padding-top: 5rem;
                 display: flex;
                 flex-direction: row;
                 list-style: none;
@@ -409,12 +409,12 @@
                     text-decoration: none;
                     li.inicio-3 {
                         font-size: 1.5rem;
-                        padding: 0rem 1rem;
+                        padding: 0rem 0.8rem;
                     }
                 }
                 li.paginas-3 {
                     font-size: 1.5rem;
-                    padding: 0rem 1rem;
+                    padding: 0rem 0.8rem;
                 }
             }
         }
@@ -426,7 +426,7 @@
             h1.quienes-somos {
                 color: white;
                 display: flex;
-                font-family: 'Raleway', sans-serif;
+                font-family: 'Times New Roman', Times, serif;
                 font-size: 4rem;
                 letter-spacing: 0.3rem;
                 padding: 10rem 0rem 10rem 0rem;
@@ -515,7 +515,7 @@
         flex-direction: column;
         width: 100%;
         height: auto;
-        padding: 0rem 0rem 5rem 0rem;
+        padding: 0rem 0rem 10rem 0rem;
         nav.nav-4 {
             display: flex;
             flex-direction: column;
@@ -528,19 +528,19 @@
         }
         ul.menu-4 {
             display: flex;
-            padding-top: 2.5rem;
+            padding-top: 5rem;
             a {
                 text-decoration: none;
                 li.inicio-4 {
                     font-size: 1.5rem;
-                    padding: 0rem 1rem;
+                    padding: 0rem 0.8rem;
                     color: white;
                 }
             }
             li.paginas-4 {
                 color: white;
                 font-size: 1.5rem;
-                padding: 0rem 1rem;
+                padding: 0rem 0.8rem;
             }
         }
         div.encontrar {
@@ -548,6 +548,7 @@
             width: 100%;
             height: auto;
             h1.encontrar {
+                font-family: 'Times New Roman', Times, serif;
                 display: flex;
                 width: 100%;
                 height: auto;
@@ -555,7 +556,7 @@
                 text-align: center;
                 font-size: 3rem;
                 letter-spacing: 0.3rem;
-                padding: 10rem 1rem 10rem 1rem;
+                padding: 10rem 0rem 10rem 0rem;
             }
         }
     }

@@ -203,7 +203,6 @@
 
 @media (max-width: 576px) {
     header.header-2 {
-        background-image: linear-gradient(135deg, rgb(255, 171, 36), rgb(255, 153, 75),rgb(255, 195, 134), rgb(255, 214, 191), rgb(239, 255, 121), rgb(255, 255, 49),rgb(255, 255, 0));
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -246,31 +245,56 @@
             flex-direction: column;
             margin: 5rem 0rem 5rem 0rem;
             h1.servicios-busqueda {
-                color: #4b4b4b;
+                color: rgb(80, 80, 80);
                 font-family: 'Times New Roman', Times, serif;
-                font-size: 3.5rem;
+                font-size: 4rem;
                 letter-spacing: 0.3rem;
                 text-align: center;
                 padding: 5rem 1rem 0rem 1rem;
-            
             }
-            h4.servicios-busqueda {
-                display: none;
-                font-family: 'Raleway', sans-serif;
-                font-size: 3rem;
-                letter-spacing: 0.2rem;
-                text-align: center;
-                padding: 0rem 0.5rem 0rem 0.5rem;
+        }
+    }
+    
+    div.servicio {
+        padding: 8rem 2rem 8rem 2rem;
+        h3.servicio {
+            font-size: 2rem;
+            letter-spacing: 0.3rem;
+        }
+        h4.servicio {
+            font-size: 2rem;
+            letter-spacing: 0.3rem;
+        }
+    }
+
+    div.paso-a-paso {
+        padding: 8rem 0rem 8rem 0rem;
+        h4.paso-a-paso {
+            font-size: 2rem;
+            padding: 0rem 0rem 5rem 0rem;
+            color: #4b4b4b;
+        }
+        ul.paso-a-paso {
+            width: 100%;
+            height: auto;
+            padding: 0rem 8rem 0rem 8rem;
+            font-size: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            li.paso-a-paso {
+                color: #4b4b4b;
+                font-size: 2rem;
             }
         }
     }
     
     
-    
     div.dirigimos {
         padding: 6rem 0rem 6rem 0rem;
         h3.dirigimos {
-            color: #4b4b4b;
             width: 100%;
             height: auto;
             text-align: center;
@@ -280,7 +304,6 @@
     
     
     div.grid-servicios {
-        background-color: #fdff9f;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -448,13 +471,19 @@
         div.valores-3 {
             width: 100%;
             height: auto;
-            h4.valores {
-                width: 100%;
-                height: auto;
-                text-align: center;
-                font-size: 1.5rem;
-                letter-spacing: 0.3rem;
-                padding: 0rem 2rem 0rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            ul.valores {
+                list-style: disc;
+                padding: 3rem 0rem 0rem 5rem;
+                li.valores {
+                    color: white;
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 1rem;
+                    padding-bottom: 2rem;
+                    letter-spacing: 0.3rem;
+                }
             }
         }
     }
@@ -741,7 +770,7 @@
             }
         }
         div.reclutamiento-seleccion {
-            background-color:#d3f7b3;
+            background-color: #fcfcfc;
             display: flex;
             flex-direction: column;
             padding-bottom: 20rem;
@@ -784,7 +813,7 @@
                 }
             }
             h3.reclutamiento-seleccion {
-                color: #4b4b4b;
+                color: white;
                 text-align: center;
                 font-family: 'Mukta', sans-serif;
                 font-size: 3.5rem;
@@ -840,13 +869,14 @@
 
 @media (min-width: 1201px) {
     header.header-2 {
-        background-image: linear-gradient(135deg, rgb(255, 171, 36), rgb(255, 153, 75),rgb(255, 195, 134), rgb(255, 214, 191), rgb(239, 255, 121), rgb(255, 255, 49),rgb(255, 255, 0));
+        background-image: linear-gradient(135deg, rgba(102, 255, 0, 0.419), rgb(248, 255, 154), rgb(248, 255, 154), rgba(102, 255, 0, 0.419));
         background-size: 500%;
         display: flex;
         flex-direction: column;
         width: 100%;
         height: auto;
         animation: bg-servicios 20s infinite;
+        border-bottom: white solid;
         nav.nav-2 {
             display: flex;
             justify-content: space-around;
@@ -869,7 +899,7 @@
                     li.inicio-2 {
                         font-family: 'Raleway', sans-serif;
                         list-style: none;
-                        color: rgba(0, 0, 0, 0.615);
+                        color: white;
                         font-size: x-large;
                         padding: 0px 5rem;
                         &:hover {
@@ -880,7 +910,7 @@
                 li.paginas-2 {
                     font-family: 'Raleway', sans-serif;
                     list-style: none;
-                    color: rgba(0, 0, 0, 0.615);
+                    color: white;
                     font-size: x-large;
                     padding: 0px 5rem;
                     border-left: solid rgb(255, 255, 255);
@@ -894,30 +924,71 @@
             display: flex;
             flex-direction: column;
             h1.servicios-busqueda {
-                color: rgba(255, 255, 255, 0.929);
-                font-family: 'Times New Roman', Times, serif;
-                font-size: 5rem;
+                color: white;
+                font-family: 'Raleway', sans-serif;
+                font-size: 6rem;
                 letter-spacing: 0.3rem;
                 text-align: center;
-                padding: 0rem 40rem 6rem 40rem;
+                padding: 10rem 0rem 15rem 0rem;
             
             }
-            h4.servicios-busqueda {
-                color: rgba(255, 255, 255, 0.929);
+        }
+    }
+    
+    div.servicio {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 8rem 0rem 8rem 0rem;
+        background-color: darkolivegreen;
+        color: white;
+        h3.servicio {
+            text-align: center;
+            font-family: 'Raleway', sans-serif;
+            font-size: 3.5rem;
+            letter-spacing: 0.3rem;
+        }
+        h4.servicio {
+            text-align: center;
+            font-family: 'Raleway', sans-serif;
+            font-size: 3.5rem;
+            letter-spacing: 0.3rem;
+        }
+    }
+
+    div.paso-a-paso {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 8rem 0rem 8rem 0rem;
+        h4.paso-a-paso {
+            font-size: 3rem;
+            font-family: 'Raleway', sans-serif;
+            padding: 0rem 0rem 5rem 0rem;
+            letter-spacing: 0.3rem;
+        }
+        ul.paso-a-paso {
+            font-size: 3rem;
+            padding: 0rem 0rem 0rem 10rem;
+            letter-spacing: 0.3rem;
+            li.paso-a-paso {
+                list-style: upper-roman;
                 font-family: 'Raleway', sans-serif;
-                font-size: 30px;
+                font-size: 2rem;
+                padding: 3rem 0rem 0rem 0rem;
                 letter-spacing: 0.3rem;
-                text-align: center;
-                padding: 0rem 6rem 10rem 6rem;
             }
         }
     }
     
     
-    
     div.dirigimos {
-        padding: 80px 0px 80px 0px;
+        padding: 10rem 0rem 10rem 0rem;
+        background-color: darkolivegreen;
         h3.dirigimos {
+            color: white;
             width: 100%;
             height: auto;
             font-family: 'Raleway', sans-serif;
@@ -928,7 +999,7 @@
     
     
     div.grid-servicios {
-        background-color: #fdff9f;
+        background-color: white;
         display: flex;
         align-items: center;
         width: 100%;
@@ -940,6 +1011,7 @@
             width: 100%;
             height: 100%;
             h3.orientamos {
+                color: black;
                 text-align: center;
                 font-family: 'Raleway', sans-serif;
                 font-size: 3rem;
@@ -1004,7 +1076,7 @@
 
 @media (min-width: 1201px) {
     header.header-3 {
-        background-image: linear-gradient(135deg, #ffdf4f, #ffdd60,#d3f7b3, #f5ffb7, #fdff9f, #ffdd60, #ffdf4f);
+        background-image: linear-gradient(135deg, rgba(102, 255, 0, 0.419), rgb(248, 255, 154), rgb(248, 255, 154), rgba(102, 255, 0, 0.419));
         background-size: 500%;
         display: flex;
         flex-direction: column;
@@ -1062,9 +1134,9 @@
         height: auto;
         justify-content: center;
         align-items: center;
-        background-color: #f2e997;
+        background-color: #423d00d7;
         h1.quienes-somos {
-            color: #4b4b4b;
+            color: white;
             display: flex;
             font-family: 'Raleway', sans-serif;
             font-size: 5rem;
@@ -1084,7 +1156,7 @@
     }
     
     div.valores {
-        background-color: #f2e997;
+        background-color: #423d00d7;
         display: flex;
         width: 100%;
         height: auto;
@@ -1096,7 +1168,7 @@
             display: flex;
             align-items: center;
             h3.valores {
-                color: #4b4b4b;
+                color: white;
                 width: 100%;
                 height: auto;
                 font-family: 'Raleway', sans-serif;
@@ -1114,15 +1186,18 @@
         div.valores-3 {
             width: 100%;
             height: auto;
-            h4.valores {
-                color: #4b4b4b;
-                width: 100%;
-                height: auto;
-                font-family: 'Raleway', sans-serif;
-                text-align: center;
-                font-size: 2.5rem;
-                letter-spacing: 0.3rem;
-                padding: 0rem 4rem 0rem 4rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            ul.valores {
+                list-style: disc;
+                padding: 0rem 1rem 0rem 8rem;
+                li.valores {
+                    color: white;
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 2.5rem;
+                    padding-bottom: 2rem;
+                }
             }
         }
     }
@@ -1136,7 +1211,7 @@
 
 @media (min-width: 1201px) {
     header.header-4 {
-        background-image: linear-gradient(135deg, #ffdf4f, #ffdd60,#d3f7b3, #f5ffb7, #fdff9f, #ffdd60, #ffdf4f);
+        background-image: linear-gradient(135deg, rgba(102, 255, 0, 0.419), rgb(248, 255, 154), rgb(248, 255, 154), rgba(102, 255, 0, 0.419));
         background-size: 500%;
         display: flex;
         flex-direction: column;
@@ -1193,8 +1268,8 @@
             width: 100%;
             height: auto;
             justify-content: center;
-            background-color:#d3f7b3;
-            color: #4b4b4b;
+            background-color:rgba(75, 100, 0, 0.555);
+            color: white;
             font-family: 'Raleway', sans-serif;
             font-size: 5rem;
             letter-spacing: 0.3rem;

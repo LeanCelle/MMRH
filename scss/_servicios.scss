@@ -1,7 +1,7 @@
 /* SERVICIOS */
 
 header.header-2 {
-    background-image: linear-gradient(135deg, rgb(73, 73, 0), rgb(111, 111, 0),rgb(213, 213, 0), #ddff00, rgb(213, 213, 0), rgb(111, 111, 0), rgb(73, 73, 0));
+    background-image: linear-gradient(135deg, rgba(102, 255, 0, 0.419), rgb(248, 255, 154), rgb(248, 255, 154), rgba(102, 255, 0, 0.419));
     background-size: 500%;
     display: flex;
     flex-direction: column;
@@ -55,21 +55,60 @@ header.header-2 {
         display: flex;
         flex-direction: column;
         h1.servicios-busqueda {
-            color: rgba(255, 255, 255, 0.929);
-            font-family: 'Times New Roman', Times, serif;
-            font-size: 5rem;
-            letter-spacing: 0.3rem;
-            text-align: center;
-            padding: 5rem 40rem 6rem 40rem;
-        
-        }
-        h4.servicios-busqueda {
-            color: rgba(255, 255, 255, 0.929);
+            color: white;
             font-family: 'Raleway', sans-serif;
-            font-size: 30px;
+            font-size: 6rem;
             letter-spacing: 0.3rem;
             text-align: center;
-            padding: 0rem 6rem 10rem 6rem;
+            padding: 10rem 0rem 15rem 0rem;
+        }
+    }
+}
+
+div.servicio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 8rem 0rem 8rem 0rem;
+    background-color: darkolivegreen;
+    color: white;
+    h3.servicio {
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        font-size: 3.5rem;
+        letter-spacing: 0.3rem;
+    }
+    h4.servicio {
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        font-size: 3.5rem;
+        letter-spacing: 0.3rem;
+    }
+}
+
+div.paso-a-paso {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8rem 0rem 8rem 0rem;
+    h4.paso-a-paso {
+        font-size: 3rem;
+        font-family: 'Raleway', sans-serif;
+        padding: 0rem 0rem 5rem 0rem;
+        letter-spacing: 0.3rem;
+    }
+    ul.paso-a-paso {
+        font-size: 3rem;
+        padding: 0rem 0rem 0rem 10rem;
+        letter-spacing: 0.3rem;
+        li.paso-a-paso {
+            list-style: upper-roman;
+            font-family: 'Raleway', sans-serif;
+            font-size: 2rem;
+            padding: 3rem 0rem 0rem 0rem;
+            letter-spacing: 0.3rem;
         }
     }
 }
@@ -77,8 +116,10 @@ header.header-2 {
 
 
 div.dirigimos {
-    padding: 80px 0px 80px 0px;
+    padding: 10rem 0rem 10rem 0rem;
+    background-color: darkolivegreen;
     h3.dirigimos {
+        color: white;
         width: 100%;
         height: auto;
         font-family: 'Raleway', sans-serif;
@@ -89,7 +130,7 @@ div.dirigimos {
 
 
 div.grid-servicios {
-    background-color: #fdff9f;
+    background-color: white;
     display: flex;
     align-items: center;
     width: 100%;

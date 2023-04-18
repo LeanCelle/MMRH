@@ -1,13 +1,13 @@
 /* SERVICIOS */
 
 header.header-2 {
-    background-image: linear-gradient(135deg, rgba(102, 255, 0, 0.419), rgb(248, 255, 154), rgb(248, 255, 154), rgba(102, 255, 0, 0.419));
-    background-size: 500%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/pexels-lukas-590016.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     display: flex;
     flex-direction: column;
     width: 100%;
     height: auto;
-    animation: bg-servicios 20s infinite;
     nav.nav-2 {
         display: flex;
         justify-content: space-around;
@@ -30,7 +30,7 @@ header.header-2 {
                 li.inicio-2 {
                     font-family: 'Raleway', sans-serif;
                     list-style: none;
-                    color: rgba(0, 0, 0, 0.615);
+                    color: white;
                     font-size: x-large;
                     padding: 0px 5rem;
                     &:hover {
@@ -41,7 +41,7 @@ header.header-2 {
             li.paginas-2 {
                 font-family: 'Raleway', sans-serif;
                 list-style: none;
-                color: rgba(0, 0, 0, 0.615);
+                color: white;
                 font-size: x-large;
                 padding: 0px 5rem;
                 border-left: solid rgb(255, 255, 255);

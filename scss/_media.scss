@@ -245,7 +245,6 @@
             flex-direction: column;
             margin: 5rem 0rem 5rem 0rem;
             h1.servicios-busqueda {
-                color: rgb(80, 80, 80);
                 font-family: 'Times New Roman', Times, serif;
                 font-size: 4rem;
                 letter-spacing: 0.3rem;
@@ -869,14 +868,13 @@
 
 @media (min-width: 1201px) {
     header.header-2 {
-        background-image: linear-gradient(135deg, rgba(102, 255, 0, 0.419), rgb(248, 255, 154), rgb(248, 255, 154), rgba(102, 255, 0, 0.419));
-        background-size: 500%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/pexels-lukas-590016.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
         display: flex;
         flex-direction: column;
         width: 100%;
         height: auto;
-        animation: bg-servicios 20s infinite;
-        border-bottom: white solid;
         nav.nav-2 {
             display: flex;
             justify-content: space-around;
@@ -929,7 +927,7 @@
                 font-size: 6rem;
                 letter-spacing: 0.3rem;
                 text-align: center;
-                padding: 10rem 0rem 15rem 0rem;
+                padding: 25rem 0rem 25rem 0rem;
             
             }
         }

@@ -474,14 +474,14 @@ div.foot-tamaño p.tdcolor img.redes {
 
 /* NOSOTROS */
 header.header-3 {
-  background-image: linear-gradient(135deg, rgba(102, 255, 0, 0.419), rgb(248, 255, 154), rgb(248, 255, 154), rgba(102, 255, 0, 0.419));
-  background-size: 500%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/manos.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   display: flex;
   flex-direction: column;
   width: 100%;
   height: auto;
   border-bottom: white solid;
-  animation: bg-servicios 20s infinite;
 }
 header.header-3 nav.nav-3 {
   display: flex;
@@ -506,7 +506,7 @@ header.header-3 nav.nav-3 ul.menu-3 a {
 header.header-3 nav.nav-3 ul.menu-3 a li.inicio-3 {
   font-family: "Raleway", sans-serif;
   list-style: none;
-  color: rgba(0, 0, 0, 0.615);
+  color: white;
   font-size: x-large;
   padding: 0rem 5rem;
 }
@@ -516,13 +516,29 @@ header.header-3 nav.nav-3 ul.menu-3 a li.inicio-3:hover {
 header.header-3 nav.nav-3 ul.menu-3 li.paginas-3 {
   font-family: "Raleway", sans-serif;
   list-style: none;
-  color: rgba(0, 0, 0, 0.615);
+  color: white;
   font-size: x-large;
   padding: 0rem 5rem;
   border-left: solid rgb(255, 255, 255);
 }
 header.header-3 nav.nav-3 ul.menu-3 li.paginas-3:hover {
   color: black;
+}
+header.header-3 div.quienes-somos-nav {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+header.header-3 div.quienes-somos-nav h1.quienes-somos {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: white;
+  display: flex;
+  font-family: "Raleway", sans-serif;
+  font-size: 6rem;
+  letter-spacing: 0.3rem;
+  padding: 25rem 0rem 25rem 0rem;
 }
 
 div.quienes-somos {
@@ -534,18 +550,9 @@ div.quienes-somos {
   align-items: center;
   background-color: rgba(66, 61, 0, 0.8431372549);
 }
-div.quienes-somos h1.quienes-somos {
-  color: white;
-  display: flex;
-  font-family: "Raleway", sans-serif;
-  font-size: 5rem;
-  letter-spacing: 0.3rem;
-  padding: 10rem 0rem 10rem 0rem;
-}
 div.quienes-somos h2.quienes-somos {
   color: #4b4b4b;
   display: flex;
-  background-color: white;
   font-family: "Raleway", sans-serif;
   text-align: center;
   font-size: 3rem;
@@ -689,7 +696,6 @@ div.encontrar h1.encontrar {
   width: 100%;
   height: auto;
   justify-content: center;
-  background-color: rgba(75, 100, 0, 0.555);
   color: white;
   font-family: "Raleway", sans-serif;
   font-size: 5rem;
@@ -1049,14 +1055,14 @@ div.foot-tamaño p.tdcolor img.redes {
   header.header-2 div.servicios-busqueda {
     display: flex;
     flex-direction: column;
-    margin: 5rem 0rem 5rem 0rem;
+    margin: 0rem 0rem 0rem 0rem;
   }
   header.header-2 div.servicios-busqueda h1.servicios-busqueda {
     font-family: "Times New Roman", Times, serif;
     font-size: 4rem;
     letter-spacing: 0.3rem;
     text-align: center;
-    padding: 5rem 1rem 0rem 1rem;
+    padding: 10rem 0rem 10rem 0rem;
   }
   div.servicio {
     padding: 8rem 2rem 8rem 2rem;
@@ -1210,6 +1216,20 @@ div.foot-tamaño p.tdcolor img.redes {
     font-size: 1.5rem;
     padding: 0rem 1rem;
   }
+  header.header-3 div.quienes-somos-nav {
+    display: flex;
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  header.header-3 div.quienes-somos-nav h1.quienes-somos {
+    color: white;
+    display: flex;
+    font-family: "Raleway", sans-serif;
+    font-size: 4rem;
+    letter-spacing: 0.3rem;
+    padding: 10rem 0rem 10rem 0rem;
+  }
   div.quienes-somos {
     display: flex;
     flex-direction: column;
@@ -1218,14 +1238,8 @@ div.foot-tamaño p.tdcolor img.redes {
     justify-content: center;
     align-items: center;
   }
-  div.quienes-somos h1.quienes-somos {
-    display: flex;
-    font-size: 3rem;
-    text-align: center;
-    letter-spacing: 0.2rem;
-    padding: 8rem 0rem 8rem 0rem;
-  }
   div.quienes-somos h2.quienes-somos {
+    color: white;
     display: flex;
     text-align: center;
     font-size: 2rem;
@@ -1238,6 +1252,7 @@ div.foot-tamaño p.tdcolor img.redes {
     height: auto;
     align-items: center;
     padding: 5rem 0rem 5rem 0rem;
+    background-color: white;
   }
   div.valores div.valores-2 {
     width: 100%;
@@ -1248,6 +1263,7 @@ div.foot-tamaño p.tdcolor img.redes {
   div.valores div.valores-2 h3.valores {
     width: 100%;
     height: auto;
+    color: #4b4b4b;
     text-align: center;
     font-size: 1.5rem;
     padding: 0rem 2rem 0rem 2rem;
@@ -1264,13 +1280,14 @@ div.foot-tamaño p.tdcolor img.redes {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: white;
   }
   div.valores div.valores-3 ul.valores {
     list-style: disc;
     padding: 3rem 0rem 0rem 5rem;
   }
   div.valores div.valores-3 ul.valores li.valores {
-    color: white;
+    color: #4b4b4b;
     font-family: "Raleway", sans-serif;
     font-size: 1rem;
     padding-bottom: 2rem;
@@ -1280,6 +1297,9 @@ div.foot-tamaño p.tdcolor img.redes {
 /* CONTACTO */
 @media (max-width: 576px) {
   header.header-4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/pexels-photo-2451568.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -1306,17 +1326,19 @@ div.foot-tamaño p.tdcolor img.redes {
   header.header-4 ul.menu-4 a li.inicio-4 {
     font-size: 1.5rem;
     padding: 0rem 1rem;
+    color: white;
   }
   header.header-4 ul.menu-4 li.paginas-4 {
+    color: white;
     font-size: 1.5rem;
     padding: 0rem 1rem;
   }
-  div.encontrar {
+  header.header-4 div.encontrar {
     display: flex;
     width: 100%;
     height: auto;
   }
-  div.encontrar h1.encontrar {
+  header.header-4 div.encontrar h1.encontrar {
     display: flex;
     width: 100%;
     height: auto;
@@ -1324,7 +1346,7 @@ div.foot-tamaño p.tdcolor img.redes {
     text-align: center;
     font-size: 3rem;
     letter-spacing: 0.3rem;
-    padding: 8rem 1.2rem 8rem 1.2rem;
+    padding: 10rem 1rem 10rem 1rem;
   }
   div.mensaje {
     display: flex;
@@ -1669,7 +1691,7 @@ div.foot-tamaño p.tdcolor img.redes {
     padding: 0px 5rem;
   }
   header.header-2 nav.nav-2 ul.menu-2 a li.inicio-2:hover {
-    color: black;
+    color: rgb(255, 244, 126);
   }
   header.header-2 nav.nav-2 ul.menu-2 li.paginas-2 {
     font-family: "Raleway", sans-serif;
@@ -1680,7 +1702,7 @@ div.foot-tamaño p.tdcolor img.redes {
     border-left: solid rgb(255, 255, 255);
   }
   header.header-2 nav.nav-2 ul.menu-2 li.paginas-2:hover {
-    color: black;
+    color: rgb(255, 244, 126);
   }
   header.header-2 div.servicios-busqueda {
     display: flex;
@@ -1823,14 +1845,14 @@ div.foot-tamaño p.tdcolor img.redes {
 /* NOSOTROS */
 @media (min-width: 1201px) {
   header.header-3 {
-    background-image: linear-gradient(135deg, rgba(102, 255, 0, 0.419), rgb(248, 255, 154), rgb(248, 255, 154), rgba(102, 255, 0, 0.419));
-    background-size: 500%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/manos.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     display: flex;
     flex-direction: column;
     width: 100%;
     height: auto;
     border-bottom: white solid;
-    animation: bg-servicios 20s infinite;
   }
   header.header-3 nav.nav-3 {
     display: flex;
@@ -1855,23 +1877,39 @@ div.foot-tamaño p.tdcolor img.redes {
   header.header-3 nav.nav-3 ul.menu-3 a li.inicio-3 {
     font-family: "Raleway", sans-serif;
     list-style: none;
-    color: rgba(0, 0, 0, 0.615);
+    color: white;
     font-size: x-large;
     padding: 0rem 5rem;
   }
   header.header-3 nav.nav-3 ul.menu-3 a li.inicio-3:hover {
-    color: black;
+    color: rgb(255, 244, 126);
   }
   header.header-3 nav.nav-3 ul.menu-3 li.paginas-3 {
     font-family: "Raleway", sans-serif;
     list-style: none;
-    color: rgba(0, 0, 0, 0.615);
+    color: white;
     font-size: x-large;
     padding: 0rem 5rem;
     border-left: solid rgb(255, 255, 255);
   }
   header.header-3 nav.nav-3 ul.menu-3 li.paginas-3:hover {
-    color: black;
+    color: rgb(255, 244, 126);
+  }
+  header.header-3 div.quienes-somos-nav {
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
+  header.header-3 div.quienes-somos-nav h1.quienes-somos {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    display: flex;
+    font-family: "Raleway", sans-serif;
+    font-size: 6rem;
+    letter-spacing: 0.3rem;
+    padding: 25rem 0rem 25rem 0rem;
   }
   div.quienes-somos {
     display: flex;
@@ -1882,18 +1920,9 @@ div.foot-tamaño p.tdcolor img.redes {
     align-items: center;
     background-color: rgba(66, 61, 0, 0.8431372549);
   }
-  div.quienes-somos h1.quienes-somos {
+  div.quienes-somos h2.quienes-somos {
     color: white;
     display: flex;
-    font-family: "Raleway", sans-serif;
-    font-size: 5rem;
-    letter-spacing: 0.3rem;
-    padding: 10rem 0rem 10rem 0rem;
-  }
-  div.quienes-somos h2.quienes-somos {
-    color: #4b4b4b;
-    display: flex;
-    background-color: white;
     font-family: "Raleway", sans-serif;
     text-align: center;
     font-size: 3rem;
@@ -1901,7 +1930,7 @@ div.foot-tamaño p.tdcolor img.redes {
     padding: 10rem 4rem 6rem 10rem;
   }
   div.valores {
-    background-color: rgba(66, 61, 0, 0.8431372549);
+    background-color: white;
     display: flex;
     width: 100%;
     height: auto;
@@ -1915,7 +1944,7 @@ div.foot-tamaño p.tdcolor img.redes {
     align-items: center;
   }
   div.valores div.valores-2 h3.valores {
-    color: white;
+    color: #4b4b4b;
     width: 100%;
     height: auto;
     font-family: "Raleway", sans-serif;
@@ -1941,7 +1970,7 @@ div.foot-tamaño p.tdcolor img.redes {
     padding: 0rem 1rem 0rem 8rem;
   }
   div.valores div.valores-3 ul.valores li.valores {
-    color: white;
+    color: #4b4b4b;
     font-family: "Raleway", sans-serif;
     font-size: 2.5rem;
     padding-bottom: 2rem;
@@ -1950,14 +1979,14 @@ div.foot-tamaño p.tdcolor img.redes {
 /* CONTACTO */
 @media (min-width: 1201px) {
   header.header-4 {
-    background-image: linear-gradient(135deg, rgba(102, 255, 0, 0.419), rgb(248, 255, 154), rgb(248, 255, 154), rgba(102, 255, 0, 0.419));
-    background-size: 500%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/pexels-photo-2451568.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     display: flex;
     flex-direction: column;
     width: 100%;
     height: auto;
     border-bottom: white solid;
-    animation: bg-servicios 20s infinite;
   }
   header.header-4 nav.nav-4 {
     display: flex;
@@ -1978,40 +2007,39 @@ div.foot-tamaño p.tdcolor img.redes {
   header.header-4 ul.menu-4 a li.inicio-4 {
     font-family: "Raleway", sans-serif;
     list-style: none;
-    color: rgba(0, 0, 0, 0.615);
+    color: white;
     font-size: x-large;
     padding: 0rem 5rem;
   }
   header.header-4 ul.menu-4 a li.inicio-4:hover {
-    color: black;
+    color: rgb(255, 244, 126);
   }
   header.header-4 ul.menu-4 li.paginas-4 {
     font-family: "Raleway", sans-serif;
     list-style: none;
-    color: rgba(0, 0, 0, 0.615);
+    color: white;
     font-size: x-large;
     padding: 0rem 5rem;
     border-left: solid rgb(255, 255, 255);
   }
   header.header-4 ul.menu-4 li.paginas-4:hover {
-    color: black;
+    color: rgb(255, 244, 126);
   }
-  div.encontrar {
+  header.header-4 div.encontrar {
     display: flex;
     width: 100%;
     height: auto;
   }
-  div.encontrar h1.encontrar {
+  header.header-4 div.encontrar h1.encontrar {
     display: flex;
     width: 100%;
     height: auto;
     justify-content: center;
-    background-color: rgba(75, 100, 0, 0.555);
     color: white;
     font-family: "Raleway", sans-serif;
-    font-size: 5rem;
+    font-size: 6rem;
     letter-spacing: 0.3rem;
-    padding: 10rem 0rem 10rem 0rem;
+    padding: 25rem 0rem 25rem 0rem;
   }
   div.mensaje {
     display: flex;

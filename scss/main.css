@@ -1427,7 +1427,7 @@ div.derechos p.derechos {
 /*SERVICIOS */
 @media (max-width: 576px) {
   header.header-2 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/leer-libro.webp);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/compu-fondo-blanco.webp);
     display: flex;
     flex-direction: column;
     width: 100%;

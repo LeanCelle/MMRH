@@ -64,8 +64,8 @@
         height: auto;
         div.div-motiva {
             width: 100%;
-            height: 30rem;
-            padding: 0rem 1rem;
+            height: auto;
+            padding: 4rem 0rem;
             letter-spacing: 0.5rem;
             display: flex;
             justify-content: center;
@@ -73,7 +73,7 @@
             text-align: center;
             p.p-motiva {
                 color: white;
-                font-size: 2.5rem;
+                font-size: 3rem;
                 font-family:'Raleway', sans-serif;
                 padding: 0rem;
             }
@@ -87,7 +87,7 @@
             justify-content: center;
             align-items: center;
             text-align: center;
-            padding: 15rem 0rem;
+            padding: 8rem 1rem;
             letter-spacing: 0.5rem;
             p.p-prueba {
                 color: #4b4b4b;
@@ -98,7 +98,7 @@
                 text-decoration: none;
             }
             input.servicios {
-                margin-top: 8rem;
+                margin-top: 6rem;
                 padding: 1rem;
                 display: flex;
                 font-size: 2rem;
@@ -316,11 +316,17 @@ div.derechos {
                     li.inicio-2 {
                         font-size: 1.5rem;
                         padding: 0rem 0.8rem;
+                        &:hover {
+                            color: rgb(255, 244, 126);
+                        }
                     }
                 }
                 li.paginas-2 {
                     font-size: 1.5rem;
                     padding: 0rem 0.8rem;
+                    &:hover {
+                        color: rgb(255, 244, 126);
+                    }
                 }
             }
         }
@@ -494,11 +500,17 @@ div.derechos {
                     li.inicio-3 {
                         font-size: 1.5rem;
                         padding: 0rem 0.8rem;
+                        &:hover {
+                            color: rgb(255, 244, 126);
+                        }
                     }
                 }
                 li.paginas-3 {
                     font-size: 1.5rem;
                     padding: 0rem 0.8rem;
+                    &:hover {
+                        color: rgb(255, 244, 126);
+                    }
                 }
             }
         }
@@ -619,12 +631,18 @@ div.derechos {
                     font-size: 1.5rem;
                     padding: 0rem 0.8rem;
                     color: white;
+                    &:hover {
+                        color: rgb(255, 244, 126);
+                    }
                 }
             }
             li.paginas-4 {
                 color: white;
                 font-size: 1.5rem;
                 padding: 0rem 0.8rem;
+                &:hover {
+                    color: rgb(255, 244, 126);
+                }
             }
         }
         div.encontrar {
@@ -726,6 +744,726 @@ div.derechos {
 
 
 
+
+
+/* TABLET */
+
+/* INICIO */
+
+@media (min-width: 577px) and (max-width: 1200px) {
+    header.color-header {
+        padding: 0rem 0rem 15rem 0rem;
+        nav.nav {
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            img.logo {
+                width: 25rem;
+                height: auto;
+            }
+            ul.menu {
+                padding-top: 3rem;
+                li.inicio {
+                    font-size: 2.5rem;
+                    padding: 0rem 1.3rem;
+                }
+                li.paginas {
+                    font-size: 2.5rem;
+                    padding: 0rem 1.3rem;
+                }
+            }
+        }
+        div.h-uno {
+            display: flex;
+            flex-direction: column;
+            height: auto;
+            margin: 5rem 0rem 0rem 0rem;
+            padding: 0rem;
+            border-radius: 0rem;
+            align-items: center;
+            h1.h-uno {
+                padding-bottom: 2rem;
+                font-size: 8rem;
+                display: flex;
+                text-align: center;
+                font-weight: normal;
+            }
+            h2.encontramos-talento {
+                font-size: 6rem;
+                text-align: center;
+                display: flex;
+                letter-spacing: 0.2rem;
+            }
+        }
+    }
+    
+    section.index-texto {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        div.div-motiva {
+            width: 100%;
+            height: auto;
+            padding: 4rem 2rem;
+            letter-spacing: 0.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            p.p-motiva {
+                color: white;
+                font-size: 3rem;
+                font-family:'Raleway', sans-serif;
+                padding: 0rem;
+            }
+        }
+        div.div-prueba {
+            background-color: #ebf7b3;
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 8rem 1rem;
+            letter-spacing: 0.5rem;
+            p.p-prueba {
+                color: #4b4b4b;
+                font-size: 3rem;
+                font-family:'Raleway', sans-serif;
+            }
+            a {
+                text-decoration: none;
+            }
+            input.servicios {
+                margin-top: 6rem;
+                padding: 1rem;
+                display: flex;
+                font-size: 2rem;
+                border: solid white;
+                border-radius: 0.5rem;
+                &:hover {
+                    transform: scale(1.02);
+                    transition: 1s;
+                    color: black;
+                    cursor: pointer;
+                }
+            }
+        }
+        div.reclutamiento-seleccion {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 20rem;
+            h2.reclutamiento-seleccion {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                font-size: 3rem;
+                letter-spacing: 0.25rem;
+                margin: 10rem 0rem 10rem 0rem;
+            }
+            div.reclutamiento-seleccion-2 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 0rem 2rem 0rem 2rem;
+                img.reclutamiento-seleccion {
+                    display: flex;
+                    width: 7rem;
+                    height: auto;
+                    margin: 0rem 0rem 5rem 0rem;
+                }
+                h3.reclutamiento-seleccion {
+                    width: 100%;
+                    height: auto;
+                    text-align: center;
+                    font-size: 2rem;
+                    letter-spacing: 0.1rem;
+                    line-height: 200%;
+                    margin: 0rem 0rem;
+                }
+                img.reclutamiento-seleccion-2 {
+                    display: flex;
+                    width: 7rem;
+                    height: auto;
+                    margin: 5rem 0rem 0rem 0rem;
+                }
+            }
+            h3.reclutamiento-seleccion {
+                text-align: center;
+                font-size: 3.5rem;
+                letter-spacing: 0.1rem;
+                margin-left: 8rem;
+                margin-right: 8rem;
+                line-height: 200%;
+            }
+            img.logo-2 {
+                display: block;
+                width: 10rem;
+                height: auto;
+                margin: auto;
+                padding-top: 10rem;
+                opacity: 0.9;
+            }
+        }
+    }
+    
+    div.footer {
+        display: flex;
+        align-items: flex-start;
+        justify-content:space-around;
+        padding: 2.5rem 0rem 2.5rem 0rem;
+        div.footer-logo {
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img.mmrh-foot {
+                width: 10rem;
+                height: auto;
+            }
+        }
+        div.contactenos {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: auto;
+            gap: 1rem;
+            h5.contactenos {
+                font-size: 1.5rem;
+                text-align: center;
+                letter-spacing: 0.1rem;
+            }
+            div.redes-2 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 1rem;
+                img.redes-2 {
+                    width: 3rem;
+                    height: auto;
+                }
+                a.redes-2 {
+                    display: flex;
+                    text-decoration: underline;
+                    font-size: 1rem;
+                    letter-spacing: 0.1rem;
+                    text-align: center;
+                }
+                h5.redes-2 {
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    color: white;
+                    font-size: 1rem;
+                    letter-spacing: 0.1rem;
+                }
+            }
+            div.redes-3 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 1rem;
+                img.redes-3 {
+                    width: 3rem;
+                    height: auto;
+                }
+                h5.redes-3 {
+                    font-size: 1rem;
+                    letter-spacing: 0.1rem;
+                }
+            }
+        }
+        div.mapa {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: auto;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            h4.mapa {
+                font-size: 1.5rem;
+                letter-spacing: 0.1rem;
+            }
+            a {
+                text-decoration: none;
+                h5.mapa {
+                    display: flex;
+                    flex-direction: column;
+                    font-size: 1rem;
+                    letter-spacing: 0.1rem;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
+
+div.derechos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0rem 1rem 0rem;
+    p.derechos {
+        color: white;
+        font-size: 1rem;
+    }
+}
+
+
+
+
+/* SERVICIOS */
+
+@media (min-width: 577px) and (max-width: 1200px) {
+    header.header-2 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/pexels-lukas-590016.jpg);
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10rem;
+        border-bottom: white solid;
+        nav.nav-2 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+            height: auto;
+            div.div-nav-2 {
+                display: flex;
+                img.logo-2 {
+                    width: 25rem;
+                    height: auto;
+                }
+            }
+            ul.menu-2 {
+                padding-top: 3rem;
+                display: flex;
+                flex-direction: row;
+                list-style: none;
+                a {
+                    text-decoration: none;
+                    li.inicio-2 {
+                        font-size: 2.5rem;
+                        padding: 0rem 1.3rem;
+                    }
+                }
+                li.paginas-2 {
+                    font-size: 2.5rem;
+                    padding: 0rem 1.3rem;
+                }
+            }
+        }
+        div.servicios-busqueda {
+            display: flex;
+            flex-direction: column;
+            margin: 0rem 0rem 0rem 0rem;
+            h1.servicios-busqueda {
+                font-family: 'Raleway', sans-serif;
+                font-size: 6rem;
+                letter-spacing: 0.3rem;
+                text-align: center;
+                padding: 10rem 0rem 10rem 0rem;
+            }
+        }
+    }
+    
+    div.servicio {
+        padding: 8rem 2rem 8rem 2rem;
+        h3.servicio {
+            font-size: 2rem;
+            letter-spacing: 0.3rem;
+        }
+        h4.servicio {
+            font-size: 2rem;
+            letter-spacing: 0.3rem;
+        }
+    }
+
+    div.paso-a-paso {
+        padding: 8rem 0rem 8rem 0rem;
+        h4.paso-a-paso {
+            font-size: 2rem;
+            padding: 0rem 0rem 5rem 0rem;
+            color: #4b4b4b;
+        }
+        ul.paso-a-paso {
+            width: 100%;
+            height: auto;
+            padding: 0rem 8rem 0rem 8rem;
+            font-size: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            li.paso-a-paso {
+                color: #4b4b4b;
+                font-size: 2rem;
+            }
+        }
+    }
+    
+    
+    div.dirigimos {
+        padding: 6rem 0rem 6rem 0rem;
+        h3.dirigimos {
+            width: 100%;
+            height: auto;
+            text-align: center;
+            font-size: 3rem;
+        }
+    }
+    
+    
+    div.grid-servicios {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        padding: 5rem 0rem 5rem 0rem;
+        div.orientamos {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            padding: 0rem 1rem 0rem 1rem;
+            h3.orientamos {
+                color: #4b4b4b;
+                text-align: center;
+                font-family: 'Raleway', sans-serif;
+                font-size: 2rem;
+                letter-spacing: 0.3rem;
+                line-height: 150%;
+    
+            }
+        }
+        div.img-servicios {
+            padding-top: 3rem;
+            width: 100%;
+            height: auto;
+            display: grid;
+            justify-items: center;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr ;
+            grid-template-areas:
+            "1 2 3"
+            "4 5 6";
+            img.banco {
+                width: 3rem;
+                height: auto;
+                grid-area: 1;
+                margin: 3rem;
+            }
+            img.ong {
+                width: 3rem;
+                height: auto;
+                grid-area: 2;
+                margin: 3rem;
+            }
+            img.fabrica {
+                width: 3rem;
+                height: auto;
+                grid-area: 3;
+                margin: 3rem;
+            }
+            img.tienda {
+                width: 3rem;
+                height: auto;
+                grid-area: 4;
+                margin: 3rem;
+            }
+            img.reclut {
+                width: 3rem;
+                height: auto;
+                grid-area: 5;
+                margin: 3rem;
+            }
+            img.apoyo {
+                width: 3rem;
+                height: auto;
+                grid-area: 6;
+                margin: 3rem;
+            }
+        }
+    }
+}
+
+
+
+
+
+/* NOSOTROS */
+
+@media (min-width: 577px) and (max-width: 1200px) {
+    header.header-3 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/manos.jpg);
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10rem;
+        nav.nav-3 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            div.div-nav-3 {
+                display: flex;
+                img.logo-3 {
+                    width: 25rem;
+                    height: auto;
+                }
+            }
+            ul.menu-3 {
+                padding-top: 3rem;
+                display: flex;
+                flex-direction: row;
+                list-style: none;
+                a {
+                    text-decoration: none;
+                    li.inicio-3 {
+                        font-size: 2.5rem;
+                        padding: 0rem 1.3rem;
+                    }
+                }
+                li.paginas-3 {
+                    font-size: 2.5rem;
+                    padding: 0rem 1.3rem;
+                }
+            }
+        }
+        div.quienes-somos-nav {
+            display: flex;
+            width: 100%;
+            height: auto;
+            text-align: center;
+            h1.quienes-somos {
+                color: white;
+                display: flex;
+                font-family: 'Raleway', sans-serif;
+                font-size: 6rem;
+                letter-spacing: 0.3rem;
+                padding: 10rem 0rem 10rem 0rem;
+            }
+        }
+    }
+    
+    div.quienes-somos {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        h2.quienes-somos {
+            color: white;
+            display: flex;
+            text-align: center;
+            font-size: 2rem;
+            letter-spacing: 0.3rem;
+            padding: 5rem 5rem 5rem 5rem;
+        }
+    }
+    
+    div.valores {
+        display: flex;
+        width: 100%;
+        height: auto;
+        align-items: center;
+        padding: 5rem 0rem 5rem 0rem;
+        background-color: white;
+        div.valores-2 {
+            width: 100%;
+            height: auto;
+            display: flex;
+            align-items: center;
+            h3.valores {
+                width: 100%;
+                height: auto;
+                color: #4b4b4b;
+                text-align: center;
+                font-size: 1.5rem;
+                padding: 0rem 2rem 0rem 2rem;
+                letter-spacing: 0.3rem;
+            }
+            img.flecha {
+                width: 2rem;
+                height: auto;
+                opacity: 0.7;
+            }
+        }
+        div.valores-3 {
+            width: 100%;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+            ul.valores {
+                list-style: disc;
+                padding: 3rem 0rem 0rem 5rem;
+                li.valores {
+                    color: #4b4b4b;
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 1rem;
+                    padding-bottom: 2rem;
+                    letter-spacing: 0.3rem;
+                }
+            }
+        }
+    }
+}
+
+
+
+/* CONTACTO */
+
+@media (min-width: 577px) and (max-width: 1200px) {
+    header.header-4 {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/pexels-photo-2451568.webp);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0rem 0rem 10rem 0rem;
+        nav.nav-4 {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            img.logo-4 {
+                width: 25rem;
+                height: auto;
+            }
+        }
+        ul.menu-4 {
+            display: flex;
+            padding-top: 5rem;
+            a {
+                text-decoration: none;
+                li.inicio-4 {
+                    font-size: 2.5rem;
+                    padding: 0rem 1.3rem;
+                    color: white;
+                }
+            }
+            li.paginas-4 {
+                color: white;
+                font-size: 2.5rem;
+                padding: 0rem 1.3rem;
+            }
+        }
+        div.encontrar {
+            display: flex;
+            width: 100%;
+            height: auto;
+            h1.encontrar {
+                font-family: 'Raleway', sans-serif;
+                display: flex;
+                width: 100%;
+                height: auto;
+                justify-content: center;
+                text-align: center;
+                font-size: 6rem;
+                letter-spacing: 0.3rem;
+                padding: 10rem 0rem 10rem 0rem;
+            }
+        }
+    }
+    
+    
+    div.mensaje {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 6rem 0rem 6rem 0rem;
+        background-color: rgb(0, 58, 97);
+        h2.mensaje {
+            width: 100%;
+            height: auto;
+            color: white;
+            font-family: 'Raleway', sans-serif;
+            font-size: 3.5rem;
+        }
+    }
+    
+    
+    div.social {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        align-items: center;
+        padding: 5rem 0rem 10rem 0rem;
+        align-items: stretch;
+        div.gmail {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img.gmail {
+                display: flex;
+                width: 5rem;
+                height: auto;
+                padding: 2rem 0rem 2rem 0rem;
+            }
+            h4.gmail {
+                text-align: center;
+                font-size: 2rem;
+                letter-spacing: 0.1rem;
+                color: #4b4b4b;
+            }
+        }
+        div.wpp {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img.wpp {
+                display: flex;
+                width: 5rem;
+                height: auto;
+                padding: 6rem 0rem 2rem 0rem;
+            }
+            h4.wpp-1 {
+                text-align: center;
+                font-size: 2rem;
+                letter-spacing: 0.1rem;
+                padding-bottom: 1rem;
+            }
+            h4.wpp-2 {
+                text-align: center;
+                font-size: 2rem;
+                letter-spacing: 0.1rem;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
 /* DESKTOP */
 
 
@@ -814,8 +1552,8 @@ div.derechos {
         height: auto;
         div.div-motiva {
             width: 100%;
-            height: 50rem;
-            padding: 0rem 2rem;
+            height: auto;
+            padding: 6rem 2rem;
             letter-spacing: 0.5rem;
             display: flex;
             justify-content: center;
@@ -823,7 +1561,7 @@ div.derechos {
             text-align: center;
             p.p-motiva {
                 color: white;
-                font-size: 5rem;
+                font-size: 4rem;
                 font-family:'Raleway', sans-serif;
                 padding: 5rem;
             }
@@ -831,17 +1569,17 @@ div.derechos {
         div.div-prueba {
             background-color: #ebf7b3;
             width: 100%;
-            height: 60rem;
+            height: auto;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             text-align: center;
-            padding: 0rem 2rem;
+            padding: 10rem 2rem;
             letter-spacing: 0.5rem;
             p.p-prueba {
                 color: #4b4b4b;
-                font-size: 5rem;
+                font-size: 4rem;
                 font-family:'Raleway', sans-serif;
             }
             a {
@@ -854,13 +1592,13 @@ div.derechos {
                 padding: 1rem;
                 display: flex;
                 font-size: 3rem;
-                border: solid white;
                 border-radius: 1rem;
+                border: white solid;
                 &:hover {
                     transform: scale(1.02);
                     transition: 1s;
                     background-color: rgba(255, 255, 255, 0.668);
-                    color: black;
+                    color: #4b4b4b;
                     cursor: pointer;
                 }
             }

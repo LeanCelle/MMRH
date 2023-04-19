@@ -1211,8 +1211,8 @@ div.derechos p.derechos {
   }
   section.index-texto div.div-motiva {
     width: 100%;
-    height: 30rem;
-    padding: 0rem 1rem;
+    height: auto;
+    padding: 4rem 0rem;
     letter-spacing: 0.5rem;
     display: flex;
     justify-content: center;
@@ -1221,7 +1221,7 @@ div.derechos p.derechos {
   }
   section.index-texto div.div-motiva p.p-motiva {
     color: white;
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-family: "Raleway", sans-serif;
     padding: 0rem;
   }
@@ -1234,7 +1234,7 @@ div.derechos p.derechos {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 15rem 0rem;
+    padding: 8rem 1rem;
     letter-spacing: 0.5rem;
   }
   section.index-texto div.div-prueba p.p-prueba {
@@ -1246,7 +1246,7 @@ div.derechos p.derechos {
     text-decoration: none;
   }
   section.index-texto div.div-prueba input.servicios {
-    margin-top: 8rem;
+    margin-top: 6rem;
     padding: 1rem;
     display: flex;
     font-size: 2rem;
@@ -1463,9 +1463,15 @@ div.derechos p.derechos {
     font-size: 1.5rem;
     padding: 0rem 0.8rem;
   }
+  header.header-2 nav.nav-2 ul.menu-2 a li.inicio-2:hover {
+    color: rgb(255, 244, 126);
+  }
   header.header-2 nav.nav-2 ul.menu-2 li.paginas-2 {
     font-size: 1.5rem;
     padding: 0rem 0.8rem;
+  }
+  header.header-2 nav.nav-2 ul.menu-2 li.paginas-2:hover {
+    color: rgb(255, 244, 126);
   }
   header.header-2 div.servicios-busqueda {
     display: flex;
@@ -1628,9 +1634,15 @@ div.derechos p.derechos {
     font-size: 1.5rem;
     padding: 0rem 0.8rem;
   }
+  header.header-3 nav.nav-3 ul.menu-3 a li.inicio-3:hover {
+    color: rgb(255, 244, 126);
+  }
   header.header-3 nav.nav-3 ul.menu-3 li.paginas-3 {
     font-size: 1.5rem;
     padding: 0rem 0.8rem;
+  }
+  header.header-3 nav.nav-3 ul.menu-3 li.paginas-3:hover {
+    color: rgb(255, 244, 126);
   }
   header.header-3 div.quienes-somos-nav {
     display: flex;
@@ -1744,10 +1756,16 @@ div.derechos p.derechos {
     padding: 0rem 0.8rem;
     color: white;
   }
+  header.header-4 ul.menu-4 a li.inicio-4:hover {
+    color: rgb(255, 244, 126);
+  }
   header.header-4 ul.menu-4 li.paginas-4 {
     color: white;
     font-size: 1.5rem;
     padding: 0rem 0.8rem;
+  }
+  header.header-4 ul.menu-4 li.paginas-4:hover {
+    color: rgb(255, 244, 126);
   }
   header.header-4 div.encontrar {
     display: flex;
@@ -1762,6 +1780,682 @@ div.derechos p.derechos {
     justify-content: center;
     text-align: center;
     font-size: 4rem;
+    letter-spacing: 0.3rem;
+    padding: 10rem 0rem 10rem 0rem;
+  }
+  div.mensaje {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 6rem 0rem 6rem 0rem;
+    background-color: rgb(0, 58, 97);
+  }
+  div.mensaje h2.mensaje {
+    width: 100%;
+    height: auto;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 3.5rem;
+  }
+  div.social {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    padding: 5rem 0rem 10rem 0rem;
+    align-items: stretch;
+  }
+  div.social div.gmail {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  div.social div.gmail img.gmail {
+    display: flex;
+    width: 5rem;
+    height: auto;
+    padding: 2rem 0rem 2rem 0rem;
+  }
+  div.social div.gmail h4.gmail {
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    color: #4b4b4b;
+  }
+  div.social div.wpp {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  div.social div.wpp img.wpp {
+    display: flex;
+    width: 5rem;
+    height: auto;
+    padding: 6rem 0rem 2rem 0rem;
+  }
+  div.social div.wpp h4.wpp-1 {
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    padding-bottom: 1rem;
+  }
+  div.social div.wpp h4.wpp-2 {
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+  }
+}
+/* TABLET */
+/* INICIO */
+@media (min-width: 577px) and (max-width: 1200px) {
+  header.color-header {
+    padding: 0rem 0rem 15rem 0rem;
+  }
+  header.color-header nav.nav {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  header.color-header nav.nav img.logo {
+    width: 25rem;
+    height: auto;
+  }
+  header.color-header nav.nav ul.menu {
+    padding-top: 3rem;
+  }
+  header.color-header nav.nav ul.menu li.inicio {
+    font-size: 2.5rem;
+    padding: 0rem 1.3rem;
+  }
+  header.color-header nav.nav ul.menu li.paginas {
+    font-size: 2.5rem;
+    padding: 0rem 1.3rem;
+  }
+  header.color-header div.h-uno {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin: 5rem 0rem 0rem 0rem;
+    padding: 0rem;
+    border-radius: 0rem;
+    align-items: center;
+  }
+  header.color-header div.h-uno h1.h-uno {
+    padding-bottom: 2rem;
+    font-size: 8rem;
+    display: flex;
+    text-align: center;
+    font-weight: normal;
+  }
+  header.color-header div.h-uno h2.encontramos-talento {
+    font-size: 6rem;
+    text-align: center;
+    display: flex;
+    letter-spacing: 0.2rem;
+  }
+  section.index-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+  section.index-texto div.div-motiva {
+    width: 100%;
+    height: auto;
+    padding: 4rem 2rem;
+    letter-spacing: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  section.index-texto div.div-motiva p.p-motiva {
+    color: white;
+    font-size: 3rem;
+    font-family: "Raleway", sans-serif;
+    padding: 0rem;
+  }
+  section.index-texto div.div-prueba {
+    background-color: #ebf7b3;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 8rem 1rem;
+    letter-spacing: 0.5rem;
+  }
+  section.index-texto div.div-prueba p.p-prueba {
+    color: #4b4b4b;
+    font-size: 3rem;
+    font-family: "Raleway", sans-serif;
+  }
+  section.index-texto div.div-prueba a {
+    text-decoration: none;
+  }
+  section.index-texto div.div-prueba input.servicios {
+    margin-top: 6rem;
+    padding: 1rem;
+    display: flex;
+    font-size: 2rem;
+    border: solid white;
+    border-radius: 0.5rem;
+  }
+  section.index-texto div.div-prueba input.servicios:hover {
+    transform: scale(1.02);
+    transition: 1s;
+    color: black;
+    cursor: pointer;
+  }
+  section.index-texto div.reclutamiento-seleccion {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20rem;
+  }
+  section.index-texto div.reclutamiento-seleccion h2.reclutamiento-seleccion {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 0.25rem;
+    margin: 10rem 0rem 10rem 0rem;
+  }
+  section.index-texto div.reclutamiento-seleccion div.reclutamiento-seleccion-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0rem 2rem 0rem 2rem;
+  }
+  section.index-texto div.reclutamiento-seleccion div.reclutamiento-seleccion-2 img.reclutamiento-seleccion {
+    display: flex;
+    width: 7rem;
+    height: auto;
+    margin: 0rem 0rem 5rem 0rem;
+  }
+  section.index-texto div.reclutamiento-seleccion div.reclutamiento-seleccion-2 h3.reclutamiento-seleccion {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    line-height: 200%;
+    margin: 0rem 0rem;
+  }
+  section.index-texto div.reclutamiento-seleccion div.reclutamiento-seleccion-2 img.reclutamiento-seleccion-2 {
+    display: flex;
+    width: 7rem;
+    height: auto;
+    margin: 5rem 0rem 0rem 0rem;
+  }
+  section.index-texto div.reclutamiento-seleccion h3.reclutamiento-seleccion {
+    text-align: center;
+    font-size: 3.5rem;
+    letter-spacing: 0.1rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    line-height: 200%;
+  }
+  section.index-texto div.reclutamiento-seleccion img.logo-2 {
+    display: block;
+    width: 10rem;
+    height: auto;
+    margin: auto;
+    padding-top: 10rem;
+    opacity: 0.9;
+  }
+  div.footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 2.5rem 0rem 2.5rem 0rem;
+  }
+  div.footer div.footer-logo {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  div.footer div.footer-logo img.mmrh-foot {
+    width: 10rem;
+    height: auto;
+  }
+  div.footer div.contactenos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    gap: 1rem;
+  }
+  div.footer div.contactenos h5.contactenos {
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: 0.1rem;
+  }
+  div.footer div.contactenos div.redes-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  div.footer div.contactenos div.redes-2 img.redes-2 {
+    width: 3rem;
+    height: auto;
+  }
+  div.footer div.contactenos div.redes-2 a.redes-2 {
+    display: flex;
+    text-decoration: underline;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+  }
+  div.footer div.contactenos div.redes-2 h5.redes-2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+  }
+  div.footer div.contactenos div.redes-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  div.footer div.contactenos div.redes-3 img.redes-3 {
+    width: 3rem;
+    height: auto;
+  }
+  div.footer div.contactenos div.redes-3 h5.redes-3 {
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+  }
+  div.footer div.mapa {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  div.footer div.mapa h4.mapa {
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+  }
+  div.footer div.mapa a {
+    text-decoration: none;
+  }
+  div.footer div.mapa a h5.mapa {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+  }
+  div.footer div.mapa a h5.mapa:hover {
+    text-decoration: underline;
+  }
+}
+div.derechos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0rem 1rem 0rem;
+}
+div.derechos p.derechos {
+  color: white;
+  font-size: 1rem;
+}
+
+/* SERVICIOS */
+@media (min-width: 577px) and (max-width: 1200px) {
+  header.header-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/pexels-lukas-590016.jpg);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10rem;
+    border-bottom: white solid;
+  }
+  header.header-2 nav.nav-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: auto;
+  }
+  header.header-2 nav.nav-2 div.div-nav-2 {
+    display: flex;
+  }
+  header.header-2 nav.nav-2 div.div-nav-2 img.logo-2 {
+    width: 25rem;
+    height: auto;
+  }
+  header.header-2 nav.nav-2 ul.menu-2 {
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+  header.header-2 nav.nav-2 ul.menu-2 a {
+    text-decoration: none;
+  }
+  header.header-2 nav.nav-2 ul.menu-2 a li.inicio-2 {
+    font-size: 2.5rem;
+    padding: 0rem 1.3rem;
+  }
+  header.header-2 nav.nav-2 ul.menu-2 li.paginas-2 {
+    font-size: 2.5rem;
+    padding: 0rem 1.3rem;
+  }
+  header.header-2 div.servicios-busqueda {
+    display: flex;
+    flex-direction: column;
+    margin: 0rem 0rem 0rem 0rem;
+  }
+  header.header-2 div.servicios-busqueda h1.servicios-busqueda {
+    font-family: "Raleway", sans-serif;
+    font-size: 6rem;
+    letter-spacing: 0.3rem;
+    text-align: center;
+    padding: 10rem 0rem 10rem 0rem;
+  }
+  div.servicio {
+    padding: 8rem 2rem 8rem 2rem;
+  }
+  div.servicio h3.servicio {
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+  }
+  div.servicio h4.servicio {
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+  }
+  div.paso-a-paso {
+    padding: 8rem 0rem 8rem 0rem;
+  }
+  div.paso-a-paso h4.paso-a-paso {
+    font-size: 2rem;
+    padding: 0rem 0rem 5rem 0rem;
+    color: #4b4b4b;
+  }
+  div.paso-a-paso ul.paso-a-paso {
+    width: 100%;
+    height: auto;
+    padding: 0rem 8rem 0rem 8rem;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  div.paso-a-paso ul.paso-a-paso li.paso-a-paso {
+    color: #4b4b4b;
+    font-size: 2rem;
+  }
+  div.dirigimos {
+    padding: 6rem 0rem 6rem 0rem;
+  }
+  div.dirigimos h3.dirigimos {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 3rem;
+  }
+  div.grid-servicios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    padding: 5rem 0rem 5rem 0rem;
+  }
+  div.grid-servicios div.orientamos {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 0rem 1rem 0rem 1rem;
+  }
+  div.grid-servicios div.orientamos h3.orientamos {
+    color: #4b4b4b;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+    line-height: 150%;
+  }
+  div.grid-servicios div.img-servicios {
+    padding-top: 3rem;
+    width: 100%;
+    height: auto;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "1 2 3" "4 5 6";
+  }
+  div.grid-servicios div.img-servicios img.banco {
+    width: 3rem;
+    height: auto;
+    grid-area: 1;
+    margin: 3rem;
+  }
+  div.grid-servicios div.img-servicios img.ong {
+    width: 3rem;
+    height: auto;
+    grid-area: 2;
+    margin: 3rem;
+  }
+  div.grid-servicios div.img-servicios img.fabrica {
+    width: 3rem;
+    height: auto;
+    grid-area: 3;
+    margin: 3rem;
+  }
+  div.grid-servicios div.img-servicios img.tienda {
+    width: 3rem;
+    height: auto;
+    grid-area: 4;
+    margin: 3rem;
+  }
+  div.grid-servicios div.img-servicios img.reclut {
+    width: 3rem;
+    height: auto;
+    grid-area: 5;
+    margin: 3rem;
+  }
+  div.grid-servicios div.img-servicios img.apoyo {
+    width: 3rem;
+    height: auto;
+    grid-area: 6;
+    margin: 3rem;
+  }
+}
+/* NOSOTROS */
+@media (min-width: 577px) and (max-width: 1200px) {
+  header.header-3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/manos.jpg);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10rem;
+  }
+  header.header-3 nav.nav-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  header.header-3 nav.nav-3 div.div-nav-3 {
+    display: flex;
+  }
+  header.header-3 nav.nav-3 div.div-nav-3 img.logo-3 {
+    width: 25rem;
+    height: auto;
+  }
+  header.header-3 nav.nav-3 ul.menu-3 {
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+  header.header-3 nav.nav-3 ul.menu-3 a {
+    text-decoration: none;
+  }
+  header.header-3 nav.nav-3 ul.menu-3 a li.inicio-3 {
+    font-size: 2.5rem;
+    padding: 0rem 1.3rem;
+  }
+  header.header-3 nav.nav-3 ul.menu-3 li.paginas-3 {
+    font-size: 2.5rem;
+    padding: 0rem 1.3rem;
+  }
+  header.header-3 div.quienes-somos-nav {
+    display: flex;
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  header.header-3 div.quienes-somos-nav h1.quienes-somos {
+    color: white;
+    display: flex;
+    font-family: "Raleway", sans-serif;
+    font-size: 6rem;
+    letter-spacing: 0.3rem;
+    padding: 10rem 0rem 10rem 0rem;
+  }
+  div.quienes-somos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  div.quienes-somos h2.quienes-somos {
+    color: white;
+    display: flex;
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+    padding: 5rem 5rem 5rem 5rem;
+  }
+  div.valores {
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    padding: 5rem 0rem 5rem 0rem;
+    background-color: white;
+  }
+  div.valores div.valores-2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+  }
+  div.valores div.valores-2 h3.valores {
+    width: 100%;
+    height: auto;
+    color: #4b4b4b;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0rem 2rem 0rem 2rem;
+    letter-spacing: 0.3rem;
+  }
+  div.valores div.valores-2 img.flecha {
+    width: 2rem;
+    height: auto;
+    opacity: 0.7;
+  }
+  div.valores div.valores-3 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+  }
+  div.valores div.valores-3 ul.valores {
+    list-style: disc;
+    padding: 3rem 0rem 0rem 5rem;
+  }
+  div.valores div.valores-3 ul.valores li.valores {
+    color: #4b4b4b;
+    font-family: "Raleway", sans-serif;
+    font-size: 1rem;
+    padding-bottom: 2rem;
+    letter-spacing: 0.3rem;
+  }
+}
+/* CONTACTO */
+@media (min-width: 577px) and (max-width: 1200px) {
+  header.header-4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/pexels-photo-2451568.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 0rem 10rem 0rem;
+  }
+  header.header-4 nav.nav-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  header.header-4 nav.nav-4 img.logo-4 {
+    width: 25rem;
+    height: auto;
+  }
+  header.header-4 ul.menu-4 {
+    display: flex;
+    padding-top: 5rem;
+  }
+  header.header-4 ul.menu-4 a {
+    text-decoration: none;
+  }
+  header.header-4 ul.menu-4 a li.inicio-4 {
+    font-size: 2.5rem;
+    padding: 0rem 1.3rem;
+    color: white;
+  }
+  header.header-4 ul.menu-4 li.paginas-4 {
+    color: white;
+    font-size: 2.5rem;
+    padding: 0rem 1.3rem;
+  }
+  header.header-4 div.encontrar {
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
+  header.header-4 div.encontrar h1.encontrar {
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    font-size: 6rem;
     letter-spacing: 0.3rem;
     padding: 10rem 0rem 10rem 0rem;
   }
@@ -1921,8 +2615,8 @@ div.derechos p.derechos {
   }
   section.index-texto div.div-motiva {
     width: 100%;
-    height: 50rem;
-    padding: 0rem 2rem;
+    height: auto;
+    padding: 6rem 2rem;
     letter-spacing: 0.5rem;
     display: flex;
     justify-content: center;
@@ -1931,25 +2625,25 @@ div.derechos p.derechos {
   }
   section.index-texto div.div-motiva p.p-motiva {
     color: white;
-    font-size: 5rem;
+    font-size: 4rem;
     font-family: "Raleway", sans-serif;
     padding: 5rem;
   }
   section.index-texto div.div-prueba {
     background-color: #ebf7b3;
     width: 100%;
-    height: 60rem;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 0rem 2rem;
+    padding: 10rem 2rem;
     letter-spacing: 0.5rem;
   }
   section.index-texto div.div-prueba p.p-prueba {
     color: #4b4b4b;
-    font-size: 5rem;
+    font-size: 4rem;
     font-family: "Raleway", sans-serif;
   }
   section.index-texto div.div-prueba a {
@@ -1962,14 +2656,14 @@ div.derechos p.derechos {
     padding: 1rem;
     display: flex;
     font-size: 3rem;
-    border: solid white;
     border-radius: 1rem;
+    border: white solid;
   }
   section.index-texto div.div-prueba input.servicios:hover {
     transform: scale(1.02);
     transition: 1s;
     background-color: rgba(255, 255, 255, 0.668);
-    color: black;
+    color: #4b4b4b;
     cursor: pointer;
   }
   section.index-texto div.reclutamiento-seleccion {

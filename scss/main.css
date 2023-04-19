@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0px 0px;
   padding: 0px 0px;
@@ -218,34 +217,117 @@ section.index-texto div.reclutamiento-seleccion img.logo-2 {
   opacity: 0.9;
 }
 
-div.foot {
-  background-color: black;
-  color: white;
+div.footer {
+  background-color: rgba(0, 0, 0, 0.823);
   display: flex;
+  align-items: flex-start;
   justify-content: space-around;
-  align-items: baseline;
-  padding: 2rem 0rem 2rem 0rem;
-  border-top: solid white;
+  padding: 2.5rem 0rem 2.5rem 0rem;
 }
-div.foot-tamaño {
-  text-align: center;
+div.footer div.footer-logo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.footer div.footer-logo img.mmrh-foot {
   width: 20rem;
   height: auto;
 }
-div.foot-tamaño p.tdcolor {
+div.footer div.contactenos {
   display: flex;
-  font-size: 1.5rem;
-  padding: 1rem 0rem;
-  justify-content: center;
-  cursor: pointer;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  gap: 4rem;
 }
-div.foot-tamaño p.tdcolor:hover {
+div.footer div.contactenos h5.contactenos {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  font-family: "Mukta", sans-serif;
+}
+div.footer div.contactenos div.redes-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+div.footer div.contactenos div.redes-2 img.redes-2 {
+  width: 3rem;
+  height: auto;
+}
+div.footer div.contactenos div.redes-2 a.redes-2 {
   color: white;
   text-decoration: underline;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  font-family: "Mukta", sans-serif;
 }
-div.foot-tamaño p.tdcolor img.redes {
-  width: 1.5rem;
-  height: 1.5rem;
+div.footer div.contactenos div.redes-2 h5.redes-2 {
+  color: white;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  font-family: "Mukta", sans-serif;
+}
+div.footer div.contactenos div.redes-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+div.footer div.contactenos div.redes-3 img.redes-3 {
+  width: 3rem;
+  height: auto;
+}
+div.footer div.contactenos div.redes-3 h5.redes-3 {
+  color: white;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  font-family: "Mukta", sans-serif;
+}
+div.footer div.mapa {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+div.footer div.mapa h4.mapa {
+  color: white;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  font-family: "Mukta", sans-serif;
+}
+div.footer div.mapa a {
+  text-decoration: none;
+}
+div.footer div.mapa a h5.mapa {
+  display: flex;
+  flex-direction: column;
+  color: rgba(255, 255, 255, 0.862);
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  font-family: "Mukta", sans-serif;
+}
+div.footer div.mapa a h5.mapa:hover {
+  text-decoration: underline;
+}
+
+div.derechos {
+  background-color: #242424;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0rem 1rem 0rem;
+}
+div.derechos p.derechos {
+  color: white;
+  font-size: 1rem;
 }
 
 /* SERVICIOS */
@@ -442,34 +524,117 @@ div.grid-servicios div.img-servicios img.apoyo {
   margin: 3rem;
 }
 
-div.foot {
-  background-color: black;
-  color: white;
+div.footer {
+  background-color: rgba(0, 0, 0, 0.823);
   display: flex;
+  align-items: flex-start;
   justify-content: space-around;
-  align-items: baseline;
-  padding: 20px 0px 20px 0px;
-  border-top: solid white;
+  padding: 2.5rem 0rem 2.5rem 0rem;
 }
-div.foot-tamaño {
-  text-align: center;
-  width: 200px;
+div.footer div.footer-logo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.footer div.footer-logo img.mmrh-foot {
+  width: 20rem;
   height: auto;
 }
-div.foot-tamaño p.tdcolor {
+div.footer div.contactenos {
   display: flex;
-  font-size: 1.5rem;
-  padding: 10px 0px;
-  justify-content: center;
-  cursor: pointer;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  gap: 4rem;
 }
-div.foot-tamaño p.tdcolor:hover {
+div.footer div.contactenos h5.contactenos {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  font-family: "Mukta", sans-serif;
+}
+div.footer div.contactenos div.redes-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+div.footer div.contactenos div.redes-2 img.redes-2 {
+  width: 3rem;
+  height: auto;
+}
+div.footer div.contactenos div.redes-2 a.redes-2 {
   color: white;
   text-decoration: underline;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  font-family: "Mukta", sans-serif;
 }
-div.foot-tamaño p.tdcolor img.redes {
-  width: 15px;
-  height: 15px;
+div.footer div.contactenos div.redes-2 h5.redes-2 {
+  color: white;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  font-family: "Mukta", sans-serif;
+}
+div.footer div.contactenos div.redes-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+div.footer div.contactenos div.redes-3 img.redes-3 {
+  width: 3rem;
+  height: auto;
+}
+div.footer div.contactenos div.redes-3 h5.redes-3 {
+  color: white;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  font-family: "Mukta", sans-serif;
+}
+div.footer div.mapa {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+div.footer div.mapa h4.mapa {
+  color: white;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  font-family: "Mukta", sans-serif;
+}
+div.footer div.mapa a {
+  text-decoration: none;
+}
+div.footer div.mapa a h5.mapa {
+  display: flex;
+  flex-direction: column;
+  color: rgba(255, 255, 255, 0.862);
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  font-family: "Mukta", sans-serif;
+}
+div.footer div.mapa a h5.mapa:hover {
+  text-decoration: underline;
+}
+
+div.derechos {
+  background-color: #242424;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0rem 1rem 0rem;
+}
+div.derechos p.derechos {
+  color: white;
+  font-size: 1rem;
 }
 
 /* NOSOTROS */
@@ -607,34 +772,117 @@ div.valores div.valores-3 ul.valores li.valores {
   padding-bottom: 2rem;
 }
 
-div.foot {
-  background-color: black;
-  color: white;
+div.footer {
+  background-color: rgba(0, 0, 0, 0.823);
   display: flex;
+  align-items: flex-start;
   justify-content: space-around;
-  align-items: baseline;
-  padding: 2rem 0rem 2rem 0rem;
-  border-top: solid white;
+  padding: 2.5rem 0rem 2.5rem 0rem;
 }
-div.foot-tamaño {
-  text-align: center;
+div.footer div.footer-logo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.footer div.footer-logo img.mmrh-foot {
   width: 20rem;
   height: auto;
 }
-div.foot-tamaño p.tdcolor {
+div.footer div.contactenos {
   display: flex;
-  font-size: 1.5rem;
-  padding: 1rem 0rem;
-  justify-content: center;
-  cursor: pointer;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  gap: 4rem;
 }
-div.foot-tamaño p.tdcolor:hover {
+div.footer div.contactenos h5.contactenos {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  font-family: "Mukta", sans-serif;
+}
+div.footer div.contactenos div.redes-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+div.footer div.contactenos div.redes-2 img.redes-2 {
+  width: 3rem;
+  height: auto;
+}
+div.footer div.contactenos div.redes-2 a.redes-2 {
   color: white;
   text-decoration: underline;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  font-family: "Mukta", sans-serif;
 }
-div.foot-tamaño p.tdcolor img.redes {
-  width: 1.5rem;
-  height: 1.5rem;
+div.footer div.contactenos div.redes-2 h5.redes-2 {
+  color: white;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  font-family: "Mukta", sans-serif;
+}
+div.footer div.contactenos div.redes-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+div.footer div.contactenos div.redes-3 img.redes-3 {
+  width: 3rem;
+  height: auto;
+}
+div.footer div.contactenos div.redes-3 h5.redes-3 {
+  color: white;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  font-family: "Mukta", sans-serif;
+}
+div.footer div.mapa {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+div.footer div.mapa h4.mapa {
+  color: white;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  font-family: "Mukta", sans-serif;
+}
+div.footer div.mapa a {
+  text-decoration: none;
+}
+div.footer div.mapa a h5.mapa {
+  display: flex;
+  flex-direction: column;
+  color: rgba(255, 255, 255, 0.862);
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  font-family: "Mukta", sans-serif;
+}
+div.footer div.mapa a h5.mapa:hover {
+  text-decoration: underline;
+}
+
+div.derechos {
+  background-color: #242424;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0rem 1rem 0rem;
+}
+div.derechos p.derechos {
+  color: white;
+  font-size: 1rem;
 }
 
 /* CONTACTO */
@@ -786,34 +1034,117 @@ div.social div.wpp h4.wpp-2 {
           text-decoration: underline rgba(0, 0, 255, 0.674);
 }
 
-div.foot {
-  background-color: black;
-  color: white;
+div.footer {
+  background-color: rgba(0, 0, 0, 0.823);
   display: flex;
+  align-items: flex-start;
   justify-content: space-around;
-  align-items: baseline;
-  padding: 2rem 0rem 2rem 0rem;
-  border-top: solid white;
+  padding: 2.5rem 0rem 2.5rem 0rem;
 }
-div.foot-tamaño {
-  text-align: center;
+div.footer div.footer-logo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.footer div.footer-logo img.mmrh-foot {
   width: 20rem;
   height: auto;
 }
-div.foot-tamaño p.tdcolor {
+div.footer div.contactenos {
   display: flex;
-  font-size: 1.5rem;
-  padding: 1rem 0rem;
-  justify-content: center;
-  cursor: pointer;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  gap: 4rem;
 }
-div.foot-tamaño p.tdcolor:hover {
+div.footer div.contactenos h5.contactenos {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  font-family: "Mukta", sans-serif;
+}
+div.footer div.contactenos div.redes-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+div.footer div.contactenos div.redes-2 img.redes-2 {
+  width: 3rem;
+  height: auto;
+}
+div.footer div.contactenos div.redes-2 a.redes-2 {
   color: white;
   text-decoration: underline;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  font-family: "Mukta", sans-serif;
 }
-div.foot-tamaño p.tdcolor img.redes {
-  width: 1.5rem;
-  height: 1.5rem;
+div.footer div.contactenos div.redes-2 h5.redes-2 {
+  color: white;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  font-family: "Mukta", sans-serif;
+}
+div.footer div.contactenos div.redes-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+div.footer div.contactenos div.redes-3 img.redes-3 {
+  width: 3rem;
+  height: auto;
+}
+div.footer div.contactenos div.redes-3 h5.redes-3 {
+  color: white;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  font-family: "Mukta", sans-serif;
+}
+div.footer div.mapa {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+div.footer div.mapa h4.mapa {
+  color: white;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  font-family: "Mukta", sans-serif;
+}
+div.footer div.mapa a {
+  text-decoration: none;
+}
+div.footer div.mapa a h5.mapa {
+  display: flex;
+  flex-direction: column;
+  color: rgba(255, 255, 255, 0.862);
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  font-family: "Mukta", sans-serif;
+}
+div.footer div.mapa a h5.mapa:hover {
+  text-decoration: underline;
+}
+
+div.derechos {
+  background-color: #242424;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0rem 1rem 0rem;
+}
+div.derechos p.derechos {
+  color: white;
+  font-size: 1rem;
 }
 
 /* MOBILE */
@@ -986,35 +1317,117 @@ div.foot-tamaño p.tdcolor img.redes {
     padding-top: 10rem;
     opacity: 0.9;
   }
-  div.foot {
+  div.footer {
     display: flex;
+    align-items: flex-start;
     justify-content: space-around;
-    align-items: baseline;
-    padding: 1rem 0rem 1rem 0rem;
+    padding: 2.5rem 0rem 2.5rem 0rem;
   }
-  div.foot-tamaño {
-    text-align: center;
-    width: 20rem;
+  div.footer div.footer-logo {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  div.footer div.footer-logo img.mmrh-foot {
+    width: 10rem;
     height: auto;
   }
-  div.foot-tamaño p.tdcolor {
+  div.footer div.contactenos {
     display: flex;
-    font-size: 1.25rem;
-    padding: 1rem 0rem;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    gap: 1rem;
+  }
+  div.footer div.contactenos h5.contactenos {
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: 0.1rem;
+  }
+  div.footer div.contactenos div.redes-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    gap: 1rem;
   }
-  div.foot-tamaño p.tdcolor img.redes {
-    width: 1.5rem;
-    height: 1.5rem;
+  div.footer div.contactenos div.redes-2 img.redes-2 {
+    width: 3rem;
+    height: auto;
   }
-  div.foot div.none {
-    display: none;
+  div.footer div.contactenos div.redes-2 a.redes-2 {
+    display: flex;
+    text-decoration: underline;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+  }
+  div.footer div.contactenos div.redes-2 h5.redes-2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+  }
+  div.footer div.contactenos div.redes-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  div.footer div.contactenos div.redes-3 img.redes-3 {
+    width: 3rem;
+    height: auto;
+  }
+  div.footer div.contactenos div.redes-3 h5.redes-3 {
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+  }
+  div.footer div.mapa {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  div.footer div.mapa h4.mapa {
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+  }
+  div.footer div.mapa a {
+    text-decoration: none;
+  }
+  div.footer div.mapa a h5.mapa {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+  }
+  div.footer div.mapa a h5.mapa:hover {
+    text-decoration: underline;
   }
 }
+div.derechos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0rem 1rem 0rem;
+}
+div.derechos p.derechos {
+  color: white;
+  font-size: 1rem;
+}
+
 /*SERVICIOS */
 @media (max-width: 576px) {
   header.header-2 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/manos-mobile.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/grupo-de-personas.webp);
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -1182,7 +1595,7 @@ div.foot-tamaño p.tdcolor img.redes {
 /* NOSOTROS */
 @media (max-width: 576px) {
   header.header-3 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/mateo.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/mesa-marron.jpeg);
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -1300,7 +1713,7 @@ div.foot-tamaño p.tdcolor img.redes {
 /* CONTACTO */
 @media (max-width: 576px) {
   header.header-4 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/circulo.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/manos-mobile.jpeg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     display: flex;
@@ -1621,36 +2034,119 @@ div.foot-tamaño p.tdcolor img.redes {
     padding-top: 10rem;
     opacity: 0.9;
   }
-  div.foot {
-    background-color: black;
-    color: white;
+  div.footer {
+    background-color: rgba(0, 0, 0, 0.823);
     display: flex;
+    align-items: flex-start;
     justify-content: space-around;
-    align-items: baseline;
-    padding: 2rem 0rem 2rem 0rem;
-    border-top: solid white;
+    padding: 2.5rem 0rem 2.5rem 0rem;
   }
-  div.foot-tamaño {
-    text-align: center;
+  div.footer div.footer-logo {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  div.footer div.footer-logo img.mmrh-foot {
     width: 20rem;
     height: auto;
   }
-  div.foot-tamaño p.tdcolor {
+  div.footer div.contactenos {
     display: flex;
-    font-size: 1.5rem;
-    padding: 1rem 0rem;
-    justify-content: center;
-    cursor: pointer;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    gap: 4rem;
   }
-  div.foot-tamaño p.tdcolor:hover {
+  div.footer div.contactenos h5.contactenos {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    font-family: "Mukta", sans-serif;
+  }
+  div.footer div.contactenos div.redes-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+  }
+  div.footer div.contactenos div.redes-2 img.redes-2 {
+    width: 3rem;
+    height: auto;
+  }
+  div.footer div.contactenos div.redes-2 a.redes-2 {
     color: white;
     text-decoration: underline;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    font-family: "Mukta", sans-serif;
   }
-  div.foot-tamaño p.tdcolor img.redes {
-    width: 1.5rem;
-    height: 1.5rem;
+  div.footer div.contactenos div.redes-2 h5.redes-2 {
+    color: white;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    font-family: "Mukta", sans-serif;
+  }
+  div.footer div.contactenos div.redes-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+  }
+  div.footer div.contactenos div.redes-3 img.redes-3 {
+    width: 3rem;
+    height: auto;
+  }
+  div.footer div.contactenos div.redes-3 h5.redes-3 {
+    color: white;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    font-family: "Mukta", sans-serif;
+  }
+  div.footer div.mapa {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  div.footer div.mapa h4.mapa {
+    color: white;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    font-family: "Mukta", sans-serif;
+  }
+  div.footer div.mapa a {
+    text-decoration: none;
+  }
+  div.footer div.mapa a h5.mapa {
+    display: flex;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 0.862);
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    font-family: "Mukta", sans-serif;
+  }
+  div.footer div.mapa a h5.mapa:hover {
+    text-decoration: underline;
   }
 }
+div.derechos {
+  background-color: #242424;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0rem 1rem 0rem;
+}
+div.derechos p.derechos {
+  color: white;
+  font-size: 1rem;
+}
+
 /*SERVICIOS */
 @media (min-width: 1201px) {
   header.header-2 {

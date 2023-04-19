@@ -172,29 +172,111 @@
         }
     }
     
-    div.foot {
+    div.footer {
         display: flex;
-        justify-content: space-around;
-        align-items: baseline;
-        padding: 1rem 0rem 1rem 0rem;
-        &-tamaño {
-            text-align: center;
-            width: 20rem;
+        align-items: flex-start;
+        justify-content:space-around;
+        padding: 2.5rem 0rem 2.5rem 0rem;
+        div.footer-logo {
+            width: 100%;
             height: auto;
-            p.tdcolor {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img.mmrh-foot {
+                width: 10rem;
+                height: auto;
+            }
+        }
+        div.contactenos {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: auto;
+            gap: 1rem;
+            h5.contactenos {
+                font-size: 1.5rem;
+                text-align: center;
+                letter-spacing: 0.1rem;
+            }
+            div.redes-2 {
                 display: flex;
-                font-size: 1.25rem;
-                padding: 1rem 0rem;
+                flex-direction: column;
+                align-items: center;
                 justify-content: center;
-                img.redes {
-                    width: 1.5rem;
-                    height: 1.5rem;
+                gap: 1rem;
+                img.redes-2 {
+                    width: 3rem;
+                    height: auto;
+                }
+                a.redes-2 {
+                    display: flex;
+                    text-decoration: underline;
+                    font-size: 1rem;
+                    letter-spacing: 0.1rem;
+                    text-align: center;
+                }
+                h5.redes-2 {
+                    display: flex;
+                    flex-direction: column;
+                    text-align: center;
+                    color: white;
+                    font-size: 1rem;
+                    letter-spacing: 0.1rem;
+                }
+            }
+            div.redes-3 {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 1rem;
+                img.redes-3 {
+                    width: 3rem;
+                    height: auto;
+                }
+                h5.redes-3 {
+                    font-size: 1rem;
+                    letter-spacing: 0.1rem;
                 }
             }
         }
-        div.none {
-            display: none;
+        div.mapa {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: auto;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            h4.mapa {
+                font-size: 1.5rem;
+                letter-spacing: 0.1rem;
+            }
+            a {
+                text-decoration: none;
+                h5.mapa {
+                    display: flex;
+                    flex-direction: column;
+                    font-size: 1rem;
+                    letter-spacing: 0.1rem;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
         }
+    }
+}
+
+div.derechos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0rem 1rem 0rem;
+    p.derechos {
+        color: white;
+        font-size: 1rem;
     }
 }
 
@@ -203,7 +285,7 @@
 
 @media (max-width: 576px) {
     header.header-2 {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/manos-mobile.jpeg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/grupo-de-personas.webp);
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -384,7 +466,7 @@
 
 @media (max-width: 576px) {
     header.header-3 {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/mateo.jpeg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/mesa-marron.jpeg);
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -510,7 +592,7 @@
 
 @media (max-width: 576px) {
     header.header-4 {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/circulo.jpeg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/manos-mobile.jpeg);
         background-repeat: no-repeat;
         background-size: 100% 100%;
         display: flex;
@@ -847,34 +929,117 @@
         }
     }
     
-    div.foot {
-        background-color: black;
-        color: white;
+    div.footer {
+        background-color: rgba(0, 0, 0, 0.823);
         display: flex;
-        justify-content: space-around;
-        align-items: baseline;
-        padding: 2rem 0rem 2rem 0rem;
-        border-top: solid white;
-        &-tamaño {
-            text-align: center;
-            width: 20rem;
+        align-items: flex-start;
+        justify-content:space-around;
+        padding: 2.5rem 0rem 2.5rem 0rem;
+        div.footer-logo {
+            width: 100%;
             height: auto;
-            p.tdcolor {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img.mmrh-foot {
+                width: 20rem;
+                height: auto;
+            }
+        }
+        div.contactenos {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: auto;
+            gap: 4rem;
+            h5.contactenos {
+                color: white;
+                font-size: 2rem;
+                text-align: center;
+                letter-spacing: 0.1rem;
+                font-family: 'Mukta', sans-serif;
+            }
+            div.redes-2 {
                 display: flex;
-                font-size: 1.5rem;
-                padding: 1rem 0rem;
+                align-items: center;
                 justify-content: center;
-                cursor: pointer;
-                &:hover {
+                gap: 3rem;
+                img.redes-2 {
+                    width: 3rem;
+                    height: auto;
+                }
+                a.redes-2 {
                     color: white;
                     text-decoration: underline;
+                    font-size: 1.5rem;
+                    letter-spacing: 0.1rem;
+                    font-family: 'Mukta', sans-serif;
                 }
-                img.redes {
-                    width: 1.5rem;
-                    height: 1.5rem;
+                h5.redes-2 {
+                    color: white;
+                    font-size: 1.5rem;
+                    letter-spacing: 0.1rem;
+                    font-family: 'Mukta', sans-serif;
+                }
+            }
+            div.redes-3 {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 3rem;
+                img.redes-3 {
+                    width: 3rem;
+                    height: auto;
+                }
+                h5.redes-3 {
+                    color: white;
+                    font-size: 1.5rem;
+                    letter-spacing: 0.1rem;
+                    font-family: 'Mukta', sans-serif;
                 }
             }
         }
+        div.mapa {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: auto;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            h4.mapa {
+                color: white;
+                font-size: 2rem;
+                letter-spacing: 0.1rem;
+                font-family: 'Mukta', sans-serif;
+            }
+            a {
+                text-decoration: none;
+                h5.mapa {
+                    display: flex;
+                    flex-direction: column;
+                    color: rgba(255, 255, 255, 0.862);
+                    font-size: 1.5rem;
+                    letter-spacing: 0.1rem;
+                    font-family: 'Mukta', sans-serif;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
+
+div.derechos {
+    background-color: #242424;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0rem 1rem 0rem;
+    p.derechos {
+        color: white;
+        font-size: 1rem;
     }
 }
 

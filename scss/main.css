@@ -21,7 +21,7 @@
 /* IMPORT */
 /* INICIO */
 body {
-  background-color: black;
+  background-color: rgb(243, 243, 243);
 }
 
 header.color-header {
@@ -222,7 +222,7 @@ section.index-texto div.reclutamiento-seleccion img.logo-2 {
 }
 
 div.footer {
-  background-color: rgba(255, 253, 253, 0.17);
+  background-color: rgba(0, 0, 0, 0.886);
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
@@ -336,7 +336,7 @@ div.derechos p.derechos {
 
 /* SERVICIOS */
 body {
-  background-color: black;
+  background-color: rgb(243, 243, 243);
 }
 
 header.header-2 {
@@ -534,7 +534,7 @@ div.grid-servicios div.img-servicios img.apoyo {
 }
 
 div.footer {
-  background-color: rgba(255, 253, 253, 0.17);
+  background-color: rgba(0, 0, 0, 0.886);
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
@@ -648,7 +648,7 @@ div.derechos p.derechos {
 
 /* NOSOTROS */
 body {
-  background-color: black;
+  background-color: rgb(243, 243, 243);
 }
 
 header.header-3 {
@@ -786,7 +786,7 @@ div.valores div.valores-3 ul.valores li.valores {
 }
 
 div.footer {
-  background-color: rgba(255, 253, 253, 0.17);
+  background-color: rgba(0, 0, 0, 0.886);
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
@@ -900,7 +900,7 @@ div.derechos p.derechos {
 
 /* CONTACTO */
 body {
-  background-color: black;
+  background-color: rgb(243, 243, 243);
 }
 
 header.header-4 {
@@ -1053,7 +1053,7 @@ div.social div.wpp h4.wpp-2 {
 }
 
 div.footer {
-  background-color: rgba(255, 253, 253, 0.17);
+  background-color: rgba(0, 0, 0, 0.886);
   display: flex;
   align-items: flex-start;
   justify-content: space-around;

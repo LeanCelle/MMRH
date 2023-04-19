@@ -1,5 +1,9 @@
 /* INICIO */
 
+body {
+    background-color: black;
+}
+
 header.color-header {
     background-image: linear-gradient(135deg, #ffdf4f, #ffdd60,#d3f7b3, #f5ffb7, #fdff9f, #ffdd60, #ffdf4f);
     background-size: 500%;
@@ -203,7 +207,7 @@ section.index-texto {
 }
 
 div.footer {
-    background-color: rgba(0, 0, 0, 0.823);
+    background-color: rgb(33, 33, 33);
     display: flex;
     align-items: flex-start;
     justify-content:space-around;

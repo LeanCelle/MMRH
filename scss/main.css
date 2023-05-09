@@ -1223,6 +1223,7 @@ div.derechos p.derechos {
     letter-spacing: 0.2rem;
   }
   section.index-texto {
+    background-color: #ebf7b3;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1232,7 +1233,7 @@ div.derechos p.derechos {
   section.index-texto div.div-motiva {
     width: 100%;
     height: auto;
-    padding: 4rem 0rem;
+    padding: 4rem 1rem;
     letter-spacing: 0.5rem;
     display: flex;
     justify-content: center;
@@ -1240,13 +1241,13 @@ div.derechos p.derechos {
     text-align: center;
   }
   section.index-texto div.div-motiva p.p-motiva {
-    color: white;
-    font-size: 3rem;
+    color: #4b4b4b;
+    font-size: 5.5vw;
     font-family: "Raleway", sans-serif;
     padding: 0rem;
   }
   section.index-texto div.div-prueba {
-    background-color: #ebf7b3;
+    background-color: rgba(255, 185, 100, 0.3019607843);
     width: 100%;
     height: auto;
     display: flex;
@@ -1259,19 +1260,21 @@ div.derechos p.derechos {
   }
   section.index-texto div.div-prueba p.p-prueba {
     color: #4b4b4b;
-    font-size: 3rem;
+    font-size: 5.5vw;
     font-family: "Raleway", sans-serif;
   }
   section.index-texto div.div-prueba a {
     text-decoration: none;
   }
   section.index-texto div.div-prueba input.servicios {
-    margin-top: 6rem;
+    color: white;
+    margin-top: 5vw;
     padding: 1rem;
     display: flex;
-    font-size: 2rem;
+    font-size: 3vw;
     border: solid white;
     border-radius: 0.5rem;
+    background-color: rgba(19, 19, 19, 0.6117647059);
   }
   section.index-texto div.div-prueba input.servicios:hover {
     transform: scale(1.02);
@@ -1280,6 +1283,7 @@ div.derechos p.derechos {
     cursor: pointer;
   }
   section.index-texto div.reclutamiento-seleccion {
+    background-color: #ebf7b3;
     width: 100%;
     height: auto;
     display: flex;
@@ -1290,7 +1294,7 @@ div.derechos p.derechos {
     display: flex;
     justify-content: center;
     text-align: center;
-    font-size: 3rem;
+    font-size: 5.5vw;
     letter-spacing: 0.25rem;
     margin: 10rem 0rem 10rem 0rem;
   }
@@ -1310,7 +1314,7 @@ div.derechos p.derechos {
     width: 100%;
     height: auto;
     text-align: center;
-    font-size: 2rem;
+    font-size: 4vw;
     letter-spacing: 0.1rem;
     line-height: 200%;
     margin: 0rem 0rem;

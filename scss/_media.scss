@@ -90,7 +90,7 @@
             justify-content: center;
             align-items: center;
             text-align: center;
-            padding: 8rem 1rem;
+            padding: 8rem 1rem 0rem 1rem;
             letter-spacing: 0.5rem;
             p.p-prueba {
                 color:#4b4b4b;
@@ -107,7 +107,7 @@
                 display: flex;
                 font-size: 3vw;
                 border: solid white;
-                border-radius: 0.5rem;
+                border-radius: 0.7rem;
                 background-color: #1313139c;
                 &:hover {
                     transform: scale(1.02);
@@ -118,19 +118,19 @@
             }
         }
         div.reclutamiento-seleccion {
-            background-color:#ebf7b3;
+            background-color: #ffb9644d;
             width: 100%;
             height: auto;
             display: flex;
             flex-direction: column;
-            padding-bottom: 20rem;
+            padding-bottom: 10rem;
             h2.reclutamiento-seleccion {
                 display: flex;
                 justify-content: center;
                 text-align: center;
                 font-size: 5.5vw;
                 letter-spacing: 0.25rem;
-                margin: 10rem 0rem 10rem 0rem;
+                margin: 8rem 0rem 10rem 0rem;
             }
             div.reclutamiento-seleccion-2 {
                 display: flex;

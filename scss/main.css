@@ -1255,7 +1255,7 @@ div.derechos p.derechos {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 8rem 1rem;
+    padding: 8rem 1rem 0rem 1rem;
     letter-spacing: 0.5rem;
   }
   section.index-texto div.div-prueba p.p-prueba {
@@ -1273,7 +1273,7 @@ div.derechos p.derechos {
     display: flex;
     font-size: 3vw;
     border: solid white;
-    border-radius: 0.5rem;
+    border-radius: 0.7rem;
     background-color: rgba(19, 19, 19, 0.6117647059);
   }
   section.index-texto div.div-prueba input.servicios:hover {
@@ -1283,12 +1283,12 @@ div.derechos p.derechos {
     cursor: pointer;
   }
   section.index-texto div.reclutamiento-seleccion {
-    background-color: #ebf7b3;
+    background-color: rgba(255, 185, 100, 0.3019607843);
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
-    padding-bottom: 20rem;
+    padding-bottom: 10rem;
   }
   section.index-texto div.reclutamiento-seleccion h2.reclutamiento-seleccion {
     display: flex;
@@ -1296,7 +1296,7 @@ div.derechos p.derechos {
     text-align: center;
     font-size: 5.5vw;
     letter-spacing: 0.25rem;
-    margin: 10rem 0rem 10rem 0rem;
+    margin: 8rem 0rem 10rem 0rem;
   }
   section.index-texto div.reclutamiento-seleccion div.reclutamiento-seleccion-2 {
     display: flex;
